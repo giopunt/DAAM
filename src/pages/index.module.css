@@ -1,0 +1,86 @@
+.section {
+  background: #82e0fb;
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+.greenBg {
+  background-color: #67d39b;
+}
+
+.content {
+  max-width: 960px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 10vh 35px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 9vh;
+}
+
+.logoSub {
+  font-size: 11px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.mainTextBig {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+
+.mainTextMedium {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.55;
+}
+
+.eventiText {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.43;
+}
+
+.date {
+  font-family: "Averia Serif Libre", Arial, Helvetica, sans-serif;
+  font-size: 57px;
+  margin-top: -5px;
+}
+
+.subDate {
+  font-family: "Averia Serif Libre", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.subtitle {
+  font-family: "Averia Serif Libre", Arial, Helvetica, sans-serif;
+  font-size: 43px;
+  font-weight: bold;
+  border-bottom: 3px solid;
+}
+
+.mailbox {
+  background: #000;
+  max-width: 300px;
+  color: #fff;
+  padding: 5px 12px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.68;
+  margin: 20px 0;
+}
+
+.link,
+.link:active {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.43;
+  color: #000;
+  text-decoration: none;
+}

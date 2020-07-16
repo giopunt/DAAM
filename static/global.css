@@ -1,0 +1,23 @@
+body {
+  font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+a {
+  color: #000;
+}
+
+#newsletter-error a {
+  display: inline-block;
+}

@@ -1,0 +1,30 @@
+backend:
+  name: github
+  repo: giopunt/DAAM
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - name: gallery
+    label: Gallery
+    folder: galleries
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: draft, name: Draft, widget: boolean, default: true }
+      - { name: path, label: Path }
+      - { name: hero, label: Hero, widget: image }
+      - { name: logo, label: Logo, widget: image }
+      - { name: name, label: Name, widget: string }
+      - { name: website, label: Website, widget: string }
+      - { name: text, label: Text, widget: markdown }
+  - name: event
+    label: Event
+    folder: events
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: draft, name: Draft, widget: boolean, default: true }
+      - { name: title, label: Title, widget: string }
+      - { name: address, label: Address, widget: markdown }

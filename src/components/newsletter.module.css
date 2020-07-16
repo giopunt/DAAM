@@ -1,0 +1,58 @@
+.container {
+  margin: 10vh 0;
+  display: block;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
+.emailAddress {
+  background: #000;
+  border: 0;
+  appearance: none;
+  padding: 6px 12px;
+  font-size: 25px;
+  color: #fff;
+  border-radius: 0px;
+  font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+  width: 100%;
+  max-width: 400px;
+}
+
+.emailAddress::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.hiddenField {
+  position: absolute;
+  left: -5000px;
+}
+
+.submitButton {
+  border: 5px solid #000;
+  background: #67d39b;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+}
+
+.inProgressMessage,
+.errorMessage,
+.successMessage {
+  font-size: 25px;
+  padding: 10px 0;
+  line-height: 30px;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.privacy {
+  display: inline-block;
+  padding-top: 15px;
+  font-size: 28px;
+}
