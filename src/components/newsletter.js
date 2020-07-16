@@ -68,7 +68,7 @@ class Newsletter extends Component {
           </form>
           {this.state.status === "sending" && <div className={styles.inProgressMessage}>Iscrizione in corso...</div>}
           {this.state.status === "error" && <div className={styles.errorMessage} id="newsletter-error" dangerouslySetInnerHTML={{__html: this.state.message}}/>}
-          {this.state.status === "success" && <div className={styles.successMessage}>Tutto fatto, Grazie! <span role="img">👍</span></div>}
+          {this.state.status === "success" && <div className={styles.successMessage}>Tutto fatto, Grazie! <span role="img" aria-label="successo">👍</span></div>}
           <div><a href="https://www.iubenda.com/privacy-policy/38606123" rel="noreferrer" target="_blank" className={[styles.privacy, globalStyles.link].join(" ")}>Privacy</a></div>
         </div>
       )
