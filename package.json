@@ -2,6 +2,7 @@
   "name": "DAAM",
   "private": true,
   "description": "Fuorieventi milanesi della fiera che non c'è",
+  "author": "Giovanni Puntil <puntilgiovanni@gmail.com>",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -19,6 +20,10 @@
     "gatsby": "^2.23.12",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-netlify-cms": "^4.3.11",
+    "gatsby-plugin-sharp": "^2.6.19",
+    "gatsby-source-filesystem": "^2.3.19",
+    "gatsby-transformer-remark": "^2.8.25",
+    "gatsby-transformer-sharp": "^2.5.11",
     "jsonp": "^0.2.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
