@@ -4,11 +4,10 @@
   min-height: 100vh;
 }
 
-.coverbg {
-  width: 100%;
-  background-position: bottom center;
-  background-repeat: repeat-y;
-  background-size: cover;
+.coverbg::before,
+.coverbg::after {
+  background-position: center;
+  background-size: contain;
 }
 
 .greenBg {

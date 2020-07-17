@@ -30,7 +30,6 @@ const Home = () => (
           Tag="section"
           className={[styles.coverbg, styles.section].join(" ")}
           fluid={imageData}
-          backgroundColor={`#82e0fb`}
         >
           <main className={styles.content}>
             <div className={styles.head}>
