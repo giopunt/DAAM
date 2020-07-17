@@ -37,6 +37,7 @@
   font-size: 25px;
   font-weight: bold;
   font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+  appearance: none;
 }
 
 .inProgressMessage,
