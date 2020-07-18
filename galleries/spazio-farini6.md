@@ -8,5 +8,5 @@ contacts: |-
 
   mail. info@spaziofarini6.com
 description: \-
-path: spazio-farini6
+path: spazio-farini-6
 ---
