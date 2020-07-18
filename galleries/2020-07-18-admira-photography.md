@@ -41,6 +41,6 @@ description: >-
   che ha scardinato gli assiomi della fotografia mostrandoci modi inediti di utilizzare il
 
   linguaggio fotografico.
-hero: /assets/admira-logo.png
+hero: ""
 path: /admira-photography
 ---
