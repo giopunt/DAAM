@@ -13,12 +13,13 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: draft, name: Draft, widget: boolean, default: true }
-      - { name: path, label: Path }
-      - { name: hero, label: Hero, widget: image }
-      - { name: logo, label: Logo, widget: image }
       - { name: name, label: Name, widget: string }
-      - { name: website, label: Website, widget: string }
-      - { name: text, label: Text, widget: markdown }
+      - { name: website, label: Website, widget: string, required: false }
+      - { name: logo, label: Logo, widget: image, required: false }
+      - { name: address, label: Address, widget: markdown }
+      - { name: description, label: Description, widget: markdown }
+      - { name: hero, label: Hero, widget: image, required: false }
+      - { name: path, label: Path }
   - name: event
     label: Event
     folder: events
