@@ -2,6 +2,7 @@
 Draft: false
 name: FABBRICA EOS Arte Contemporanea
 website: https://www.fabbricaeos.it
+logo: /assets/fabbrica-eos.png
 address: |-
   Piazzale A. Baiamonti 2,
 
