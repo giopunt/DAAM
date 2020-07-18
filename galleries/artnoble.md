@@ -2,6 +2,7 @@
 Draft: false
 name: ARTNOBLE
 website: https://artnoble.it/
+logo: /assets/art-noble.png
 address: |-
   Via Alessandro Tadino 24,\
   Milano
