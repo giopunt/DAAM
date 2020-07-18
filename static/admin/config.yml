@@ -10,13 +10,14 @@ collections:
     label: Gallery
     folder: galleries
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
       - { label: draft, name: Draft, widget: boolean, default: true }
       - { name: name, label: Name, widget: string }
       - { name: website, label: Website, widget: string, required: false }
       - { name: logo, label: Logo, widget: image, required: false }
       - { name: address, label: Address, widget: markdown }
+      - { name: contacts, label: Contacts, widget: markdown }
       - { name: description, label: Description, widget: markdown }
       - { name: hero, label: Hero, widget: image, required: false }
       - { name: path, label: Path }
@@ -24,7 +25,7 @@ collections:
     label: Event
     folder: events
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
       - { label: draft, name: Draft, widget: boolean, default: true }
       - { name: title, label: Title, widget: string }
