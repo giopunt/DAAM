@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql, StaticQuery } from 'gatsby'
-import BackgroundImage from "gatsby-background-image"
 
 import Seo from "../components/seo"
 import Newsletter from "../components/newsletter"
@@ -26,10 +25,13 @@ const Home = () => (
       
       return (<div>
         <Seo/>
-        <BackgroundImage
-          Tag="section"
+        <section
           className={[styles.coverbg, styles.section].join(" ")}
-          fluid={imageData}
+          style={
+            {
+              backgroundImage: `url(${imageData.src}), linear-gradient(#7fddf9, #a9e9fd), linear-gradient(90deg, #8de1fb, #8de2fc, #7fddf9)`
+            }
+          }
         >
           <main className={styles.content}>
             <div className={styles.head}>
@@ -46,8 +48,8 @@ const Home = () => (
 
             <div className={styles.mainTextBig}>Fuorieventi milanesi della fiera che non c'è*</div>
           </main>
-        </BackgroundImage>
-        <section className={styles.section}>
+        </section>
+        <section className={[styles.blueBg, styles.section].join(" ")}>
           <main className={styles.content}>
             <div className={styles.head}>
               <div>
@@ -66,7 +68,7 @@ const Home = () => (
               </div>
             </div>
 
-            <div className={styles.eventiText}>
+            <div className={styles.mainTextMedium}>
               dal 25 luglio pubblicheremo la lista degli eventi, torna a trovarci!
               <br/><br/>
               intanto iscriviti alla newsletter per rimanere sempre aggiornato
