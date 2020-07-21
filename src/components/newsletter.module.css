@@ -38,6 +38,7 @@
   font-weight: bold;
   font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
   appearance: none;
+  border-radius: 0px;
 }
 
 .inProgressMessage,

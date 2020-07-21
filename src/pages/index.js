@@ -69,7 +69,7 @@ const Home = () => (
             </div>
 
             <div className={styles.mainTextMedium}>
-              dal 25 luglio pubblicheremo la lista degli eventi, torna a trovarci!
+              dal 1 agosto pubblicheremo la lista delle gallerie partecipanti e dal 1 settembre la lista completa degli eventi, torna a trovarci!
               <br/><br/>
               intanto iscriviti alla newsletter per rimanere sempre aggiornato
             </div>
