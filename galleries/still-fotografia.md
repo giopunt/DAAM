@@ -9,9 +9,9 @@ address: |-
 contacts: |-
   Tel. +39 02 36744528
 
-  Mail. info@stillfotografia.it
+  [Info Mail](mailto:info@stillfotografia.it)
 
-  Press. press@stillfotografia.it
+  [Press Mail](mailto:press@stillfotografia.it)
 description: \-
 path: /still-fotografia
 ---
