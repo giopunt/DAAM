@@ -6,7 +6,7 @@ address: 20154, Milano
 contacts: |-
   Tel. +39 335 592 9562
 
-  Mail. info@tallulahstudioart.com
+  [Info Mail](mailto:info@tallulahstudioart.com)
 description: \-
 path: /tallulah-studio-art
 ---
