@@ -2,6 +2,7 @@ import React from "react"
 
 import Seo from "../components/seo"
 import Galleries from "../components/galleries"
+import Footer from "../components/footer"
 
 import styles from "./index.module.css"
 
@@ -19,6 +20,7 @@ const Gallerie = () => (
         <Galleries />
       </main>
     </section>
+    <Footer />
   </div>
 )
 

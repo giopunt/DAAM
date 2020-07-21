@@ -4,6 +4,7 @@ import { graphql, StaticQuery } from 'gatsby'
 import Seo from "../components/seo"
 import Newsletter from "../components/newsletter"
 import Galleries from "../components/galleries"
+import Footer from "../components/footer"
 
 import logo from "./logo.svg"
 import styles from "./index.module.css"
@@ -88,6 +89,7 @@ const Home = () => (
             <Galleries />
           </main>
         </section>
+        <Footer />
       </div>)
     }}
   />
