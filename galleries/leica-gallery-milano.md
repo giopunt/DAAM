@@ -1,5 +1,5 @@
 ---
-Draft: true
+Draft: false
 name: Leica Gallery Milano
 address: |-
   Via Mengoni 4 (on the corner of piazza del Duomo)
