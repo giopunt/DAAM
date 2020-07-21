@@ -19,6 +19,7 @@
   font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
   width: 100%;
   max-width: 400px;
+  margin: 0;
 }
 
 .emailAddress::placeholder {
@@ -39,6 +40,7 @@
   font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
   appearance: none;
   border-radius: 0px;
+  margin: 0;
 }
 
 .inProgressMessage,
