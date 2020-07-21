@@ -1,8 +1,10 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import ReactMarkdown from "react-markdown"
 
 import styles from "./gallery.module.css"
+
+import arrowIcon from "../images/left-arrow.svg"
 
 export default function Gallery ({ data }) {
   const node = data.markdownRemark
@@ -17,6 +19,9 @@ export default function Gallery ({ data }) {
   return (
     <div className={styles.layout}>
       <main className={styles.main}>
+        <Link className={styles.backHomeLink} to="/">
+          <img className={styles.arrowIcon} src={arrowIcon} alt="" />
+        </Link>
         <h1 className={styles.name}>{name}</h1>
         {website && <section className={styles.section}>
           <a href={website} className={styles.websiteLink} target="_blank" rel="noreferrer">WEBSITE</a>
