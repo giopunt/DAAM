@@ -9,7 +9,7 @@ address: |-
 contacts: |-
   Tel. +39 02 36561 179
 
-  Mail. info@unimaginable.it
+  [Info Mail](mailto:info@unimaginable.it)
 description: \-
 path: /unimaginable
 ---
