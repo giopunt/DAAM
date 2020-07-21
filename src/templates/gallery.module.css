@@ -1,0 +1,35 @@
+.layout {
+  background-color: #fdf9c3;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 9vh 5%;
+}
+
+.name {
+  font-size: 38px;
+  line-height: 1.29;
+  font-family: "Averia Serif Libre", Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+.subtitle {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.section {
+  margin-top: 5vh;
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+.websiteLink {
+  font-size: 20px;
+}
