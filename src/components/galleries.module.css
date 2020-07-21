@@ -14,3 +14,8 @@
 .cameraIcon {
   margin-left: 20px;
 }
+
+.link {
+  display: block;
+  text-decoration: none;
+}

@@ -112,3 +112,19 @@
   color: #000;
   text-decoration: none;
 }
+
+.notFoundText {
+  padding-top: 50px;
+}
+
+.backHomeLink {
+  text-decoration: none;
+}
+
+.backHome {
+  margin-top: 100px;
+}
+
+.arrowIcon {
+  width: 44px;
+}
