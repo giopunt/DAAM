@@ -6,14 +6,20 @@ address: |-
   Via Pietro Maroncelli 13
 
   20154 Milano
-contacts: |-
+contacts: >-
   T.+39.02.29091252 
+
 
   M.+39.348.2635056
 
-  Mail: info@edizionigalleriacolombari.com
 
-  Instagram @galleria_paola_colombari | Facebook Galleria Paola Colombari
+  [Info Mail](mailto:info@edizionigalleriacolombari.com):
+
+
+  Instagram:
+
+
+  [@galleria_paola_colombari ](https://www.instagram.com/galleria_paola_colombari/)
 description: \-
 path: /galleria-paola-colombari
 ---
