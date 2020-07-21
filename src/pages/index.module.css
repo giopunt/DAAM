@@ -4,7 +4,7 @@
 }
 
 .coverbg {
-  background-position: center 40px, center 40px, center top;
+  background-position: right 120px, center 120px, center top;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -29,7 +29,7 @@
   max-width: 960px;
   min-width: 320px;
   margin: 0 auto;
-  padding: 10vh 35px;
+  padding: 9vh 35px 10vh;
 }
 
 .head {
@@ -37,7 +37,13 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 9vh;
+  margin-bottom: 6vh;
+}
+
+@media (min-aspect-ratio: 3/3) {
+  .head {
+    margin-bottom: 9vh;
+  }
 }
 
 .logoSub {
@@ -67,7 +73,7 @@
 .date {
   font-family: "Averia Serif Libre", Arial, Helvetica, sans-serif;
   font-size: 57px;
-  margin-top: -6px;
+  margin-top: -11px;
   text-align: center;
 }
 
