@@ -3,6 +3,7 @@ import { graphql, StaticQuery } from 'gatsby'
 
 import Seo from "../components/seo"
 import Newsletter from "../components/newsletter"
+import Galleries from "../components/galleries"
 
 import logo from "./logo.svg"
 import styles from "./index.module.css"
@@ -74,6 +75,17 @@ const Home = () => (
               intanto iscriviti alla newsletter per rimanere sempre aggiornato
             </div>
             <Newsletter/>
+          </main>
+        </section>
+        <section className={[styles.section, styles.pinkBg].join(' ')}>
+          <main className={styles.content}>
+            <div className={styles.head}>
+              <div>
+                <h2 className={styles.subtitle}>Gallerie</h2>
+              </div>
+            </div>
+
+            <Galleries />
           </main>
         </section>
       </div>)

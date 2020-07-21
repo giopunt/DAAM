@@ -1,0 +1,16 @@
+.box {
+  border-bottom: 3px solid #000;
+  padding-bottom: 24px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.cameraIcon {
+  float: right;
+}

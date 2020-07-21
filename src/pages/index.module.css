@@ -25,6 +25,10 @@
   background-color: #67d39b;
 }
 
+.pinkBg {
+  background-color: #fdcbc3;
+}
+
 .content {
   max-width: 960px;
   min-width: 320px;
