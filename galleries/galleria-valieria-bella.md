@@ -11,9 +11,9 @@ contacts: |-
 
   Mob. +39 335 6769748
 
-  Mail. photo@valeriabella.com
+  [Info Mail Photo](mailto:photo@valeriabella.com)
 
-  Mail. bellastampe@valeriabella.com
+  [Info Mail Stampe](mailto:bellastampe@valeriabella.com)
 description: \-
 path: /galleria-valieria-bella
 ---
