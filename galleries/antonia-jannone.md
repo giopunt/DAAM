@@ -6,7 +6,7 @@ address: C.so Giuseppe Garibaldi, 125
 contacts: |-
   Tel. +39 02 29002930
 
-  Mail. info@antoniajannone.it
+  [Info Mail](mailto:info@antoniajannone.it)
 description: \-
 path: /antonia-jannone
 ---
