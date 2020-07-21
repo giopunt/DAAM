@@ -10,6 +10,7 @@ const Galleries = () => (
         query {
           allMarkdownRemark(
             filter: { 
+              fileAbsolutePath: { regex: "/(galleries)/" }
               frontmatter: { Draft: { eq: false } } 
             }
           ) {
