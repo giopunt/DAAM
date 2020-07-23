@@ -3,9 +3,9 @@ Draft: false
 name: Galleria Valeria Bella
 website: http://www.valeriabella.com/home.htm
 address: |-
-  via Santa Cecilia, 2 20122 Milano
+  Via Santa Cecilia, 2 20122 Milano
 
-  entrata da Via San Damiano
+  Entrata da Via San Damiano
 contacts: |-
   Tel. +39 0276004413
 
