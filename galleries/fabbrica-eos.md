@@ -4,15 +4,13 @@ name: FABBRICA EOS Arte Contemporanea
 website: https://www.fabbricaeos.it
 logo: /assets/fabbrica-eos.png
 address: |-
-  Piazzale A. Baiamonti 2,
+  Piazzale A. Baiamonti 2, 20154 Milano
 
-  Viale Pasubio (Angolo via Bonnet),
-
-  20154 Milano
+  Viale Pasubio (Angolo via Bonnet), 20154 Milano
 contacts: |-
-  Tel. +39 02 89073362
+  Tel. Baiamonti +39 02 89073362
 
-  Tel. +39 02 6596532
+  Tel. Pasubio +39 02 6596532
 
   [Info Mail](mailto:info@fabbricaeos.it)
 bio: >-
