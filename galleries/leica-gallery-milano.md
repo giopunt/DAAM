@@ -13,4 +13,6 @@ contacts: |-
   [Info Mail](mailto:info@leicastore-milano.com)
 bio: \-
 path: /leica-gallery-milano
+latitude: "45.4651036"
+longitude: "9.1862123"
 ---
