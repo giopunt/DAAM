@@ -29,4 +29,6 @@ bio: >-
 
   Podbielski Contemporary aims to merge art dealing activities with academic research, presenting special events such as artists talks, performances, conferences and screening evenings, to become not only a lively space for art lovers and art collectors, but also a cultural destination for young scholars and for the Berlin art community in general. May its small-scale intervention help sustain wider efforts in overcoming the compartmentalization of the art field between public and private institutions.
 path: /podbielski-contemporary
+latitude: "45.4670906"
+longitude: "9.1722806"
 ---
