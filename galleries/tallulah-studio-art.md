@@ -30,6 +30,6 @@ bio: >-
 
   Of relevance, among the gallery's recent works, the exhibition on the theme "Change - The Imaginative cells" in support of the LGBT community in collaboration with Arcus Pride Art Milan - for Clifford Chance. Tallulah Studio collaborates with young artists present in the recent international panorama such as Donatella Izzo, Federico Unia, Donata Clovis, Federica Angelino, Patrick Corrado ,, Riccardo Bonfadini, Floris Andrea, Ian Gamache, Fabio Roncato, Andrea Milano, Maria Giovanna Morelli, Donata Clovis, Daria Dziecielewska Mc Douglas, Jono Nussbaum, Jordi Suñé Ferrús, Furio Agiman, Claudio Magrassi, Michele Ardito, Mauro Vettore, Giampiero Gasparini.
 path: /tallulah-studio-art
-latitude: "45.4451645"
-longitude: "9.1714986"
+latitude: "45.4829072"
+longitude: "9.1834022"
 ---
