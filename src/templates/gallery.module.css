@@ -37,3 +37,14 @@
 .arrowIcon {
   margin-bottom: 5vh;
 }
+
+.map {
+  height: 400px;
+  width: 100%;
+}
+
+.popup {
+  background: #fff;
+  padding: 20px;
+  color: #000;
+}

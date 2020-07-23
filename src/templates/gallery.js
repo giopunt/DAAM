@@ -1,66 +1,113 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import ReactMarkdown from "react-markdown"
-import { GoogleMap, LoadScript, InfoWindow } from '@react-google-maps/api';
+import leaflet from 'leaflet'
 
 import Footer from "../components/footer"
+import Seo from "../components/seo"
 
 import styles from "./gallery.module.css"
 
 import arrowIcon from "../images/left-arrow.svg"
 
-const mapStyles = {        
-  height: "100vh",
-  width: "100%"};
+const defaultCenter = [
+  45.4642,
+  9.1900
+]
 
-const defaultCenter = {
-  lat: 41.3851, lng: 2.1734
-}
+class Gallery extends React.Component {
 
-export default function Gallery({ data }) {
-  const node = data.markdownRemark
-  const {
-    address,
-    contacts,
-    bio,
-    name,
-    website
-  } = node.frontmatter
+  state = {
+    position: undefined
+  }
 
-  return (
-    <div>
-      <div className={styles.layout}>
-        <main className={styles.main}>
-          <Link className={styles.backHomeLink} to="/">
-            <img className={styles.arrowIcon} src={arrowIcon} alt="" />
-          </Link>
-          <h1 className={styles.name}>{name}</h1>
+  componentDidMount(){
+    const node = this.props.data.markdownRemark
+  
+    const {
+      name,
+      address,
+      latitude,
+      longitude
+    } = node.frontmatter
+  
+    const hasCoords = latitude && longitude
+    const position = hasCoords ? [Number(latitude), Number(longitude)] : defaultCenter
+    const zoomLevel = hasCoords ? 19 : 13
 
-          {website && <section className={styles.section}>
-            <a href={website} className={styles.websiteLink} target="_blank" rel="noreferrer">WEBSITE</a>
-          </section>}
+    const map = leaflet.map('gallery-map').setView(position, zoomLevel)
 
-          {address && <section className={styles.section}>
-            <h3 className={styles.subtitle}>Indirizzo</h3>
-            <ReactMarkdown source={address} escapeHtml={false} />
-          </section>}
+    leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
 
-          {contacts && <section className={styles.section}>
-            <h3 className={styles.subtitle}>Contatti</h3>
-            <ReactMarkdown source={contacts} escapeHtml={false} />
-          </section>}
+    const markerIcon = leaflet.icon({
+        iconUrl: 'marker-icon.png',
+        iconSize: [25, 25],
+        popupAnchor: [-0, -10]
+    })
 
-          {bio && <section className={styles.section}>
-            <h3 className={styles.subtitle}>Bio</h3>
-            <ReactMarkdown source={bio} escapeHtml={false} />
-          </section>}
+    setTimeout(()=>{
+      leaflet.marker(position, {icon: markerIcon})
+        .addTo(map)
+        .bindPopup(`${name}\n\n${address}`, { 'maxWidth': '250', 'className' : 'custom-popup' })
+        .openPopup()
+    }, 700)
+  }
 
-        </main>
+  render() {
+    const node = this.props.data.markdownRemark
+  
+    const {
+      address,
+      contacts,
+      bio,
+      name,
+      website
+    } = node.frontmatter
+  
+    return (
+      <div>
+        <Seo />
+        <div className={styles.layout}>
+          <main className={styles.main}>
+            <Link className={styles.backHomeLink} to="/">
+              <img className={styles.arrowIcon} src={arrowIcon} alt="" />
+            </Link>
+            <h1 className={styles.name}>{name}</h1>
+  
+            {website && <section className={styles.section}>
+              <a href={website} className={styles.websiteLink} target="_blank" rel="noreferrer">WEBSITE</a>
+            </section>}
+  
+            {address && <section className={styles.section}>
+              <h3 className={styles.subtitle}>Indirizzo</h3>
+              <ReactMarkdown source={address} escapeHtml={false} parserOptions={{ commonmark: true }} />
+            </section>}
+  
+            {contacts && <section className={styles.section}>
+              <h3 className={styles.subtitle}>Contatti</h3>
+              <ReactMarkdown source={contacts} escapeHtml={false} parserOptions={{ commonmark: true }} />
+            </section>}
+  
+            {bio && <section className={styles.section}>
+              <h3 className={styles.subtitle}>Bio</h3>
+              <ReactMarkdown source={bio} escapeHtml={true} parserOptions={{ commonmark: true }} />
+            </section>}
+  
+            <section className={styles.section}>
+              <h3 className={styles.subtitle}>Location</h3>
+              <div id="gallery-map" className={styles.map}></div>
+            </section>
+          </main>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
-  )
+    )
+  }
 }
+
+export default Gallery
 
 export const query = graphql`
   query($slug: String!) {
@@ -71,6 +118,8 @@ export const query = graphql`
         bio
         name
         website
+        latitude
+        longitude
       }
     }
   }
