@@ -28,6 +28,9 @@ collections:
           allow_multiple: true
         }
       - { name: path, label: Path }
+      - { name: latitude, label: Latitude, widget: string, required: false }
+      - { name: longitude, label: Longitude, widget: string, required: false }
+
   - name: event
     label: Event
     folder: events
