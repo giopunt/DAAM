@@ -47,4 +47,6 @@ bio: >-
 
   From March 2019, the new space has opened in Milan, with a showcase illuminated until the evening where solo show and group exhibitions alternate, in front of Feltrinelli Foundation and Microsoft headquarters in one of the most growing district in the city.
 path: /fabbrica-eos
+latitude: "45.4822904"
+longitude: "9.1801878"
 ---
