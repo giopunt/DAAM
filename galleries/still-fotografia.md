@@ -30,4 +30,6 @@ bio: >-
 
   It also offers workshops, master classes and consultancy related to the world of collecting photography. STILL also produces exhibitions, books and art catalogs.
 path: /still-fotografia
+latitude: "45.4451649"
+longitude: "9.1780915"
 ---
