@@ -2,6 +2,7 @@
 Draft: false
 name: PODBIELSKI CONTEMPORARY
 website: https://podbielskicontemporary.com/
+logo: /assets/screen-shot-2020-07-23-at-15.54.04.png
 address: |-
   Via Vincenzo Monti 12
 
