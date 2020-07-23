@@ -40,4 +40,6 @@ bio: >-
 
   Valeria Bella Stampe is a member of and the prestigious IFPDA (International Fine Print Dealer Association), is a sustaining member of Camera Centro Italiano per la Fotografia in Torino, and member of CINOA (Confederation Internationale des Negociantes en Oeuvres d’Art.
 path: /galleria-valieria-bella
+latitude: "45.467199"
+longitude: "9.1981493"
 ---
