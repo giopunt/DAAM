@@ -1,7 +1,7 @@
 import React from "react"
+import loadable from '@loadable/component'
 import { Link, graphql } from "gatsby"
 import ReactMarkdown from "react-markdown"
-import leaflet from 'leaflet'
 
 import Footer from "../components/footer"
 import Seo from "../components/seo"
@@ -10,50 +10,10 @@ import styles from "./gallery.module.css"
 
 import arrowIcon from "../images/left-arrow.svg"
 
-const defaultCenter = [
-  45.4642,
-  9.1900
-]
+
+const GalleryMap = loadable(() => import('../components/gallery-map'))
 
 class Gallery extends React.Component {
-
-  state = {
-    position: undefined
-  }
-
-  componentDidMount(){
-    const node = this.props.data.markdownRemark
-  
-    const {
-      name,
-      address,
-      latitude,
-      longitude
-    } = node.frontmatter
-  
-    const hasCoords = latitude && longitude
-    const position = hasCoords ? [Number(latitude), Number(longitude)] : defaultCenter
-    const zoomLevel = hasCoords ? 17 : 13
-
-    const map = leaflet.map('gallery-map').setView(position, zoomLevel)
-
-    leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
-
-    const markerIcon = leaflet.icon({
-        iconUrl: 'marker-icon.png',
-        iconSize: [25, 25],
-        popupAnchor: [-0, -10]
-    })
-
-    setTimeout(()=>{
-      leaflet.marker(position, {icon: markerIcon})
-        .addTo(map)
-        .bindPopup(`${name}\n\n${address}`, { 'maxWidth': '250', 'className' : 'custom-popup' })
-        .openPopup()
-    }, 700)
-  }
 
   render() {
     const node = this.props.data.markdownRemark
@@ -63,7 +23,9 @@ class Gallery extends React.Component {
       contacts,
       bio,
       name,
-      website
+      website,
+      latitude,
+      longitude
     } = node.frontmatter
   
     return (
@@ -98,7 +60,7 @@ class Gallery extends React.Component {
           
           <section className={styles.section}>
             <h3 className={[styles.subtitle, styles.withPaddings].join(" ")}>Location</h3>
-            <div id="gallery-map" className={styles.map}></div>
+            <GalleryMap name={name} address={address} latitude={latitude} longitude={longitude} />
           </section>
         </div>
         <Footer />
