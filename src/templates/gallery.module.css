@@ -8,7 +8,7 @@
   flex-direction: column;
   max-width: 960px;
   margin: 0 auto;
-  padding: 9vh 5%;
+  padding: 9vh 5% 0;
 }
 
 .name {
@@ -22,6 +22,17 @@
   font-size: 22px;
   margin-bottom: 10px;
   text-decoration: underline;
+}
+
+.withPaddings {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.subtitle.withPaddings {
+  margin-bottom: 20px;
 }
 
 .section {

@@ -94,12 +94,12 @@ class Gallery extends React.Component {
               <h3 className={styles.subtitle}>Bio</h3>
               <ReactMarkdown source={bio} escapeHtml={true} parserOptions={{ commonmark: true }} />
             </section>}
-  
-            <section className={styles.section}>
-              <h3 className={styles.subtitle}>Location</h3>
-              <div id="gallery-map" className={styles.map}></div>
-            </section>
           </main>
+          
+          <section className={styles.section}>
+            <h3 className={[styles.subtitle, styles.withPaddings].join(" ")}>Location</h3>
+            <div id="gallery-map" className={styles.map}></div>
+          </section>
         </div>
         <Footer />
       </div>
