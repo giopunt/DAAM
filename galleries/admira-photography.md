@@ -8,8 +8,9 @@ address: |-
   20124 Milano
 contacts: Tel/Fax +39 02 6694278
 bio: >-
-  ADMIRA, fondata da Enrica Viganò nel 1997, abbraccia l’arte della fotografia
-  in tutte
+  ITA:\
+
+  ADMIRA, fondata da Enrica Viganò nel 1997, abbraccia l’arte della fotografia in tutte
 
   le sue declinazioni: dalla curatela e produzione di mostre all’edizione di libri, dalla
 
@@ -42,6 +43,11 @@ bio: >-
   che ha scardinato gli assiomi della fotografia mostrandoci modi inediti di utilizzare il
 
   linguaggio fotografico.
-hero: ""
+
+
+  ENG:\
+
+  ADMIRA, founded by Enrica Viganò in 1997, embraces the art of photography in all its forms: from curating and producing exhibitions to publishing books, creating cultural events and collecting. The ADMIRA FineArt department not only offers a complete service to private collectors and public institutions, but makes the promotion of Italian photography abroad a real mission. Inserting the works of Italian NeoRealism photographers in the major international museum collections has achieved exceptional results over time, such as the acquisition by the Metropolitan Museum of Art in New York of as many as 93 photographs of the authors that ADMIRA represents. In addition to bring abroad Italian masters such as Mario De Biasi, Nino Best, Franco Pinna and Fulvio Roiter while keeping their market value strong, Admira has selected some extraordinary foreign authors to be represented exclusively in Italy: a star like Edward Burtynsky and his commitment to sustainability, an icon like Charlotte Perriand and his visual research from the 1930s, a pioneer like Ruth Orkin and her ante litteram feminism and finally an inventor of horizons like Duane Michals, who unhinged the axioms of photography showing us new ways of using photographic language.
 path: /admira-photography
+hero: ""
 ---
