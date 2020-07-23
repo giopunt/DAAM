@@ -71,9 +71,9 @@ const Home = () => (
             </div>
 
             <div className={styles.mainTextMedium}>
-              dal 1 settembre sarà disponibile online la lista completa degli eventi, torna a trovarci!
+              Dal 1 settembre sarà disponibile online la lista completa degli eventi, torna a trovarci!
               <br/><br/>
-              nel frattempo esplora le gallerie partecipanti e visto che ci sei iscriviti alla newsletter per rimanere sempre aggiornato
+              Nel frattempo esplora le gallerie partecipanti e visto che ci sei iscriviti alla newsletter per rimanere sempre aggiornato
             </div>
             <Newsletter/>
           </main>
