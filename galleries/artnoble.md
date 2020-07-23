@@ -13,13 +13,13 @@ contacts: |-
 
   +44 7532023805 // +39 3249974878, 
 
-  [e-mail](mailto:matthew@artnoble.co.uk)
+  [E-mail](mailto:matthew@artnoble.co.uk)
 
   Press Office - Caterina Monda 
 
   +39 3519044340
 
-  [press mail](mailto:press@artnoble.co.uk)
+  [Press Mail](mailto:press@artnoble.co.uk)
 bio: >-
   ITA: ArtNoble è una piattaforma espositiva e galleria d'arte dedicata alla
   promozione di talenti contemporanei, con l'obiettivo di superare le barriere
