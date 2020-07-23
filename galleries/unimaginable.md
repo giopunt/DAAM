@@ -12,4 +12,6 @@ contacts: |-
   [Info Mail](mailto:info@unimaginable.it)
 bio: \-
 path: /unimaginable
+latitude: "45.46637"
+longitude: "9.150676"
 ---
