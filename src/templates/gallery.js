@@ -46,9 +46,9 @@ class Gallery extends React.Component {
               <img className={styles.arrowIcon} src={arrowIcon} alt="" />
             </Link>
             <h1 className={styles.name}>{name}</h1>
-  
+
             {website && <section className={styles.section}>
-              <a href={website} className={styles.websiteLink} target="_blank" rel="noreferrer">WEBSITE</a>
+              <a href={website} className={styles.websiteLink} target="_blank" rel="noreferrer">{website}</a>
             </section>}
   
             {address && <section className={styles.section}>
