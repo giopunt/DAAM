@@ -59,3 +59,24 @@
   padding: 20px;
   color: #000;
 }
+
+.bioBtn {
+  border: 0px;
+  border-radius: 0;
+  appearance: none;
+  background-color: #fdf9c3;
+  display: block;
+  text-align: left;
+  font-size: 22px;
+  width: 100%;
+  padding: 0;
+  border-bottom: 2px solid;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.minus, .plus {
+  font-size: 30px;
+}

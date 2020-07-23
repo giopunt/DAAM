@@ -14,6 +14,15 @@ import arrowIcon from "../images/left-arrow.svg"
 const GalleryMap = loadable(() => import('../components/gallery-map'))
 
 class Gallery extends React.Component {
+  state = {
+    expandBio: false
+  }
+
+  expandBio = () => {
+    this.setState({
+      expandBio: !this.state.expandBio
+    })
+  }
 
   render() {
     const node = this.props.data.markdownRemark
@@ -53,8 +62,13 @@ class Gallery extends React.Component {
             </section>}
   
             {bio && <section className={styles.section}>
-              <h3 className={styles.subtitle}>Bio</h3>
-              <ReactMarkdown source={bio} escapeHtml={true} parserOptions={{ commonmark: true }} />
+              <button onClick={this.expandBio} className={styles.bioBtn}>
+                Bio 
+                {this.state.expandBio ? <div className={styles.minus} >–</div> : <div className={styles.plus}>+</div>}
+              </button>
+              { this.state.expandBio &&
+                <ReactMarkdown source={bio} escapeHtml={true} parserOptions={{ commonmark: true }} />
+              }
             </section>}
           </main>
           
