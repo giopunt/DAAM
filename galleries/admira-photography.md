@@ -7,7 +7,7 @@ address: |-
   Via Mercadante 3,\
   20124 Milano
 contacts: Tel/Fax +39 02 6694278
-description: >-
+bio: >-
   ADMIRA, fondata da Enrica Viganò nel 1997, abbraccia l’arte della fotografia
   in tutte
 

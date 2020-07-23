@@ -12,6 +12,6 @@ contacts: |-
   [Info Mail](mailto:info@stillfotografia.it)
 
   [Press Mail](mailto:press@stillfotografia.it)
-description: \-
+bio: \-
 path: /still-fotografia
 ---

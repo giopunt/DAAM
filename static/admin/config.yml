@@ -18,8 +18,15 @@ collections:
       - { name: logo, label: Logo, widget: image, required: false }
       - { name: address, label: Address, widget: markdown }
       - { name: contacts, label: Contacts, widget: markdown }
-      - { name: description, label: Description, widget: markdown }
-      - { name: hero, label: Hero, widget: image, required: false }
+      - { name: program, label: Programma, widget: markdown, required: false }
+      - { name: bio, label: Bio, widget: markdown }
+      - { 
+          name: slider,
+          label: "Photo Slider",
+          widget: image,
+          required: false,
+          allow_multiple: true
+        }
       - { name: path, label: Path }
   - name: event
     label: Event

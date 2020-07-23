@@ -15,7 +15,7 @@ contacts: |-
   Tel. +39 02 6596532
 
   [Info Mail](mailto:info@fabbricaeos.it)
-description: >-
+bio: >-
   **Italiano**
 
 

@@ -7,6 +7,6 @@ contacts: |-
   Tel. +39 02 29002930
 
   [Info Mail](mailto:info@antoniajannone.it)
-description: \-
+bio: \-
 path: /antonia-jannone
 ---

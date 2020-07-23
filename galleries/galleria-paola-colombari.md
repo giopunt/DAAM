@@ -20,6 +20,6 @@ contacts: >-
 
 
   [@galleria_paola_colombari ](https://www.instagram.com/galleria_paola_colombari/)
-description: \-
+bio: \-
 path: /galleria-paola-colombari
 ---

@@ -1,18 +1,28 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import ReactMarkdown from "react-markdown"
+import { GoogleMap, LoadScript, InfoWindow } from '@react-google-maps/api';
+
 import Footer from "../components/footer"
 
 import styles from "./gallery.module.css"
 
 import arrowIcon from "../images/left-arrow.svg"
 
+const mapStyles = {        
+  height: "100vh",
+  width: "100%"};
+
+const defaultCenter = {
+  lat: 41.3851, lng: 2.1734
+}
+
 export default function Gallery({ data }) {
   const node = data.markdownRemark
   const {
     address,
     contacts,
-    description,
+    bio,
     name,
     website
   } = node.frontmatter
@@ -25,6 +35,7 @@ export default function Gallery({ data }) {
             <img className={styles.arrowIcon} src={arrowIcon} alt="" />
           </Link>
           <h1 className={styles.name}>{name}</h1>
+
           {website && <section className={styles.section}>
             <a href={website} className={styles.websiteLink} target="_blank" rel="noreferrer">WEBSITE</a>
           </section>}
@@ -39,9 +50,9 @@ export default function Gallery({ data }) {
             <ReactMarkdown source={contacts} escapeHtml={false} />
           </section>}
 
-          {description && <section className={styles.section}>
+          {bio && <section className={styles.section}>
             <h3 className={styles.subtitle}>Bio</h3>
-            <ReactMarkdown source={description} escapeHtml={false} />
+            <ReactMarkdown source={bio} escapeHtml={false} />
           </section>}
 
         </main>
@@ -57,7 +68,7 @@ export const query = graphql`
       frontmatter {
         address
         contacts
-        description
+        bio
         name
         website
       }

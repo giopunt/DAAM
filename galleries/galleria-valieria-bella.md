@@ -14,6 +14,6 @@ contacts: |-
   [Info Mail Photo](mailto:photo@valeriabella.com)
 
   [Info Mail Stampe](mailto:bellastampe@valeriabella.com)
-description: \-
+bio: \-
 path: /galleria-valieria-bella
 ---

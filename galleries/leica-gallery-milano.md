@@ -11,6 +11,6 @@ contacts: |-
   Fax: +39 02 72740227
 
   [Info Mail](mailto:info@leicastore-milano.com)
-description: \-
+bio: \-
 path: /leica-gallery-milano
 ---

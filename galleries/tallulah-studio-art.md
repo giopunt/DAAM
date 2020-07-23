@@ -7,6 +7,6 @@ contacts: |-
   Tel. +39 335 592 9562
 
   [Info Mail](mailto:info@tallulahstudioart.com)
-description: \-
+bio: \-
 path: /tallulah-studio-art
 ---

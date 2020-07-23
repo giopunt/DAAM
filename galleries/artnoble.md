@@ -20,7 +20,7 @@ contacts: |-
   +39 3519044340
 
   [press mail](mailto:press@artnoble.co.uk)
-description: >-
+bio: >-
   ITA: ArtNoble è una piattaforma espositiva e galleria d'arte dedicata alla
   promozione di talenti contemporanei, con l'obiettivo di superare le barriere
   di esclusività tipicamente associate al mondo dell'arte. Nata nel 2018 a

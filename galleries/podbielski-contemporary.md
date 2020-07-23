@@ -10,6 +10,6 @@ contacts: |-
   Tel. +39 0236747219
 
   [Info Mail](mailto:info@podbielskicontemporary.com)
-description: \-
+bio: \-
 path: /podbielski-contemporary
 ---

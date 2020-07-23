@@ -7,6 +7,6 @@ contacts: |-
   Tel. 02 6208 6626
 
   [Info Mail](mailto:info@spaziofarini6.com)
-description: \-
+bio: \-
 path: spazio-farini-6
 ---
