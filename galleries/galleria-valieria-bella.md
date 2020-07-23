@@ -5,7 +5,7 @@ website: http://www.valeriabella.com/home.htm
 address: |-
   via Santa Cecilia, 2 20122 Milano
 
-  Eentrata da Via San Damiano
+  entrata da Via San Damiano
 contacts: |-
   Tel. +39 0276004413
 
