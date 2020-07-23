@@ -44,4 +44,6 @@ bio: >-
 
   Her most recent shows have been dedicated to Mario Botta, Andrea Branzi, Alessandro Busci, Aldo Cibic, Michele De Lucchi, Vittorio Gregotti, Steven Holl, Ugo La Pietra, Alessandro Mendini, Marco Palmieri, Gaetano Pesce, Franco Raggi, Umberto Riva, Alvaro Siza, Ettore Sottsass, Sergei Tchoban, Velasco Vitali and Marco Zanuso Jr.
 path: /antonia-jannone
+latitude: "45.4798508"
+longitude: "9.1856181"
 ---
