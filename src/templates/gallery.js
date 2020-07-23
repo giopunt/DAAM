@@ -33,7 +33,7 @@ class Gallery extends React.Component {
   
     const hasCoords = latitude && longitude
     const position = hasCoords ? [Number(latitude), Number(longitude)] : defaultCenter
-    const zoomLevel = hasCoords ? 19 : 13
+    const zoomLevel = hasCoords ? 17 : 13
 
     const map = leaflet.map('gallery-map').setView(position, zoomLevel)
 
