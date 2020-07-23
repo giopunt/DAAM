@@ -16,9 +16,7 @@ contacts: |-
 
   [Info Mail](mailto:info@fabbricaeos.it)
 bio: >-
-  **Italiano**
-
-
+  **ITA:**
 
 
   Fabbrica Eos viene fondata a Milano all’inizio degli anni ’90.
@@ -36,11 +34,7 @@ bio: >-
   Da marzo 2019 ha aperto il nuovo spazio a Milano, con una vetrina illuminata fino a sera dove si alternano mostre personali e collettive, di fronte alla sede di Fondazione Feltrinelli e Microsoft in uno dei quartieri più in crescita della città.
 
 
-
-
-  **English**
-
-
+  **ENG:**
 
 
   Fabbrica Eos was founded in Milan in the early 90s.
