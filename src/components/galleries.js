@@ -26,14 +26,19 @@ const Galleries = () => (
           }
         }
       `}
-      render={data => data.allMarkdownRemark.edges.map(({ node }) => (
-        <Link key={node.id} to={node.frontmatter.path} className={styles.link}>
-          <div className={styles.box}>
-            <h3 className={styles.name}>{node.frontmatter.name}</h3>
-            <img className={styles.cameraIcon} src={cameraIcon} alt="" />
-          </div>
-        </Link>
-      ))}
+      render={data => (
+        <div>
+          {data.allMarkdownRemark.edges.map(({ node }) => (
+            <Link key={node.id} to={node.frontmatter.path} className={styles.link}>
+              <div className={styles.box}>
+                <h3 className={styles.name}>{node.frontmatter.name}</h3>
+                <img className={styles.cameraIcon} src={cameraIcon} alt="" />
+              </div>
+            </Link>
+          ))}
+        </div>
+      )
+    }
     />
 )
 

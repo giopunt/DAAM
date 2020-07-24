@@ -9,6 +9,10 @@ import Footer from "../components/footer"
 import logo from "./logo.svg"
 import styles from "./index.module.css"
 
+
+import loadable from '@loadable/component'
+const GalleriesMap = loadable(() => import('../components/galleries-map'))
+
 const Home = () => (
   <StaticQuery
     query={graphql`
@@ -17,6 +21,25 @@ const Home = () => (
           childImageSharp {
             fluid(quality: 90, maxWidth: 1920) {
               ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+        allMarkdownRemark(
+          filter: { 
+            fileAbsolutePath: { regex: "/(galleries)/" }
+            frontmatter: { Draft: { eq: false } } 
+          }
+        ) {
+          edges {
+            node {
+              id
+              frontmatter {
+                name
+                path
+                address
+                latitude
+                longitude
+              }
             }
           }
         }
@@ -85,8 +108,17 @@ const Home = () => (
                 <h2 className={styles.subtitle}>Gallerie</h2>
               </div>
             </div>
-
             <Galleries />
+          </main>
+        </section>
+        <section className={[styles.pinkBg].join(' ')}>
+          <main className={[styles.content, styles.fullwidth].join(' ')}>
+            <div className={styles.head}>
+              <div>
+                <h2 className={styles.subtitle}>Locations</h2>
+              </div>
+            </div>
+            <GalleriesMap data={data.allMarkdownRemark} />
           </main>
         </section>
         <Footer />

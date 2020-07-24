@@ -36,6 +36,19 @@
   padding: 9vh 35px 10vh;
 }
 
+.content.fullwidth {
+  max-width: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.content.fullwidth .head {
+  max-width: 960px;
+  margin: 0 auto 30px;
+  padding: 0 35px;
+}
+
 .head {
   display: flex;
   flex-direction: row;
