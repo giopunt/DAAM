@@ -64,9 +64,9 @@
 }
 
 .logoSub {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
 .mainTextBig {
@@ -97,6 +97,7 @@
 .subDate {
   font-family: "Averia Serif Libre", Arial, Helvetica, sans-serif;
   font-size: 22px;
+  margin-top: -6px;
 }
 
 .subtitle {
