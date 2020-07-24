@@ -34,7 +34,8 @@ class Gallery extends React.Component {
       name,
       website,
       latitude,
-      longitude
+      longitude,
+      logo
     } = node.frontmatter
   
     return (
@@ -47,6 +48,8 @@ class Gallery extends React.Component {
             </Link>
             <h1 className={styles.name}>{name}</h1>
 
+            {logo && <img src={logo} alt="Logo galleria" className={styles.logo} />}
+            
             {website && <section className={styles.section}>
               <a href={website} className={styles.websiteLink} target="_blank" rel="noreferrer">{website}</a>
             </section>}
@@ -96,6 +99,7 @@ export const query = graphql`
         website
         latitude
         longitude
+        logo
       }
     }
   }
