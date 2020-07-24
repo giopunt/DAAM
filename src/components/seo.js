@@ -1,10 +1,10 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 
-const Seo = () => (
+const Seo = ({ title }) => (
   <div>
     <Helmet>
-      <title>DAAM (dovevo andare al MIA)</title>
+      <title>{title}</title>
       <meta name="description" content="Fuorieventi milanesi della fiera che non c'è"></meta>
       <meta name="viewport"    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"></meta>
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
@@ -14,7 +14,7 @@ const Seo = () => (
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
       <meta property="og:url"           content="https://daam.it/" />
       <meta property="og:type"          content="website" />
-      <meta property="og:title"         content="DAAM (dovevo andare al MIA)" />
+      <meta property="og:title"         content={title} />
       <meta property="og:description"   content="Fuorieventi milanesi della fiera che non c'è" />
       <meta property="og:image"         content="/apple-touch-icon.png" />
       <meta name="msapplication-TileColor" content="#82e0fb"/>

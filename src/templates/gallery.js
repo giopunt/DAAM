@@ -40,7 +40,7 @@ class Gallery extends React.Component {
   
     return (
       <div>
-        <Seo />
+        <Seo title={name + " | DAAM (dovevo andare al MIA)"} />
         <div className={styles.layout}>
           <main className={styles.main}>
             <Link className={styles.backHomeLink} to="/">

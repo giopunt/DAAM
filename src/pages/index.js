@@ -49,7 +49,7 @@ const Home = () => (
       const imageData = data.desktop.childImageSharp.fluid
       
       return (<div>
-        <Seo/>
+        <Seo title="DAAM (dovevo andare al MIA)" />
         <section
           className={[styles.coverbg, styles.section].join(" ")}
           style={
@@ -58,9 +58,9 @@ const Home = () => (
             }
           }
         >
-          <main className={styles.content}>
+          <main className={`${styles.content} `}>
             <div className={styles.head}>
-              <div>
+              <div className="">
                 <img className={styles.logo} src={logo} alt="Dovevo andare al mia"/>
                 <div className={styles.logoSub}>(dovevo andare al MIA)</div>
               </div>
