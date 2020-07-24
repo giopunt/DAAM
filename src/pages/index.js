@@ -82,7 +82,7 @@ const Home = () => (
               </div>
             </div>
 
-            <div className={styles.mainTextMedium}>* Mentre aspettiamo che il MIA riparta <u>(la decima edizione si terrà dal 25 - 28 marzo)</u>, arriva il DAAM! Un’ iniziativa per colmare il vuoto di questo 2020 atipico, un hub per promuovere la fotografia d’autore.<br/><br/> Quattro giorni ricchi di eventi e progetti fotografici di grandi maestri organizzati dalle più prestigiose gallerie fotografiche milanesi.</div>
+            <div className={styles.mainTextMedium}>* Mentre aspettiamo che il MIA riparta <a href="https://www.miafair.it/">(la decima edizione si terrà dal 25 - 28 marzo)</a>, arriva il DAAM! Un’ iniziativa per colmare il vuoto di questo 2020 atipico, un hub per promuovere la fotografia d’autore.<br/><br/> Quattro giorni ricchi di eventi e progetti fotografici di grandi maestri organizzati dalle più prestigiose gallerie fotografiche milanesi.</div>
             </main>
         </section>
         <section className={[styles.section, styles.greenBg].join(' ')}>
