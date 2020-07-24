@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql } from "gatsby"
 import leaflet from 'leaflet'
 
 import styles from "../templates/gallery.module.css"

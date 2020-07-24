@@ -15,3 +15,18 @@
 .notice {
   margin-top: 20px;
 }
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid;
+}
+
+.footer .miaLogo {
+  border: 0px;
+}
+
+.miaLogo img {
+  width: 150px;
+  margin-top: 3vh;
+}
