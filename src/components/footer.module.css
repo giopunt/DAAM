@@ -29,4 +29,5 @@
 .miaLogo img {
   width: 150px;
   margin-top: 3vh;
+  filter: grayscale(1) invert(1);
 }
