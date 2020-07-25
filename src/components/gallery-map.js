@@ -37,7 +37,7 @@ class GalleryMap extends React.Component {
     setTimeout(()=>{
       leaflet.marker(position, {icon: markerIcon})
         .addTo(map)
-        .bindPopup(`${name}\n\n${address}`, { 'maxWidth': '250', 'className' : 'custom-popup' })
+        .bindPopup(`${name}\n\n${address.replace('\\', '')}`, { 'maxWidth': '250', 'className' : 'custom-popup' })
         .openPopup()
     }, 700)
   }
