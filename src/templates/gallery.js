@@ -64,19 +64,19 @@ class Gallery extends React.Component {
               <ReactMarkdown source={contacts} escapeHtml={false} parserOptions={{ commonmark: true }} />
             </section>}
   
-            {bio && <section className={styles.section}>
+            {bio && <section className={`${styles.section} ${styles.bio} ${this.state.expandBio ? styles.expand : styles.collapse}`}>
               <button onClick={this.expandBio} className={styles.bioBtn}>
                 Bio 
                 {this.state.expandBio ? <div className={styles.minus} >–</div> : <div className={styles.plus}>+</div>}
               </button>
-              { this.state.expandBio &&
+              <div className={styles.bioText}>
                 <ReactMarkdown source={bio} escapeHtml={true} parserOptions={{ commonmark: true }} />
-              }
+              </div>
             </section>}
           </main>
           
           <section className={styles.section}>
-            <h3 className={[styles.subtitle, styles.withPaddings].join(" ")}>Location</h3>
+            <h3 className={`${styles.subtitle} ${styles.withPaddings}`}>Location</h3>
             <GalleryMap name={name} address={address} latitude={latitude} longitude={longitude} />
           </section>
         </div>

@@ -31,7 +31,7 @@ class GalleryMap extends React.Component {
         const { name, address, latitude, longitude, path } = node.frontmatter;
         leaflet.marker([latitude, longitude], {icon: markerIcon})
           .addTo(map)
-          .bindPopup(`<a href="${path}" class="link">${name}</a>\n\n${address}`, { 'maxWidth': '250', 'className' : 'custom-popup' })
+          .bindPopup(`<a href="${path}" class="link">${name}</a>\n\n${address.replace('\\', '')}`, { 'maxWidth': '250', 'className' : 'custom-popup' })
       });
     }, 700)
   }

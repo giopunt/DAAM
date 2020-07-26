@@ -9,7 +9,6 @@ import Footer from "../components/footer"
 import logo from "./logo.svg"
 import styles from "./index.module.css"
 
-
 import loadable from '@loadable/component'
 const GalleriesMap = loadable(() => import('../components/galleries-map'))
 
@@ -51,14 +50,14 @@ const Home = () => (
       return (<div>
         <Seo title="DAAM (dovevo andare al MIA)" />
         <section
-          className={[styles.coverbg, styles.section].join(" ")}
+          className={`${styles.coverbg} ${styles.section} rellax`}
           style={
             {
               backgroundImage: `url(${imageData.src}), linear-gradient(#7fddf9, #a9e9fd), linear-gradient(90deg, #8de1fb, #8de2fc, #7fddf9)`
             }
           }
         >
-          <main className={`${styles.content} `}>
+          <main className={styles.content}>
             <div className={styles.head}>
               <div className="">
                 <img className={styles.logo} src={logo} alt="Dovevo andare al mia"/>
@@ -74,7 +73,7 @@ const Home = () => (
             <div className={styles.mainTextBig}>Fuorieventi milanesi della fiera che non c'è*</div>
           </main>
         </section>
-        <section className={[styles.blueBg, styles.section].join(" ")}>
+        <section className={`${styles.blueBg} ${styles.section}`}>
           <main className={styles.content}>
             <div className={styles.head}>
               <div>
@@ -83,9 +82,9 @@ const Home = () => (
             </div>
 
             <div className={styles.mainTextMedium}>* Mentre aspettiamo che il MIA riparta (<a href="https://www.miafair.it/">la decima edizione si terrà dal 25 - 28 marzo 2021</a> presso Super Studio Maxi in via Moncucco 30 a Milano), arriva il DAAM! Un’ iniziativa per colmare il vuoto di questo 2020 atipico, un hub per promuovere la fotografia d’autore.<br/><br/> Quattro giorni ricchi di eventi e progetti fotografici di grandi maestri organizzati dalle più prestigiose gallerie fotografiche milanesi.</div>
-            </main>
+          </main>
         </section>
-        <section className={[styles.section, styles.greenBg].join(' ')}>
+        <section className={`${styles.section} ${styles.greenBg}`}>
           <main className={styles.content}>
             <div className={styles.head}>
               <div>
@@ -101,7 +100,7 @@ const Home = () => (
             <Newsletter/>
           </main>
         </section>
-        <section className={[styles.section, styles.pinkBg].join(' ')}>
+        <section className={`${styles.section} ${styles.pinkBg}`}>
           <main className={styles.content}>
             <div className={styles.head}>
               <div>
@@ -111,8 +110,8 @@ const Home = () => (
             <Galleries />
           </main>
         </section>
-        <section className={[styles.pinkBg].join(' ')}>
-          <main className={[styles.content, styles.fullwidth].join(' ')}>
+        <section className={`${styles.pinkBg}`}>
+          <main className={`${styles.content} ${styles.fullwidth}`}>
             <div className={styles.head}>
               <div>
                 <h2 className={styles.subtitle}>Locations</h2>

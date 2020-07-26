@@ -89,3 +89,19 @@
   max-width: 150px;
   margin-top: 3vh;
 }
+
+.bio {
+  overflow: hidden;
+}
+
+.bioText {
+  transition: max-height 0.5s ease-in-out;
+}
+
+.expand .bioText {
+  max-height: 10000px;
+}
+
+.collapse .bioText {
+  max-height: 0px;
+}

@@ -9,7 +9,7 @@ import styles from "./index.module.css"
 const Gallerie = () => (
   <div>
     <Seo title="Gallerie Aderenti | DAAM (dovevo andare al MIA)"/>
-    <section className={[styles.section, styles.pinkBg].join(' ')}>
+    <section className={`${styles.section} ${styles.pinkBg}`}>
       <main className={styles.content}>
         <div className={styles.head}>
           <div>

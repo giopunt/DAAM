@@ -6,7 +6,7 @@ import arrowIcon from "../images/left-arrow.svg"
 
 const NotFound = () => (
   <div>
-    <section className={[styles.section, styles.pinkBg].join(' ')}>
+    <section className={`${styles.section} ${styles.pinkBg}`}>
       <main className={styles.content}>
         <div className={styles.head}>
           <div>
