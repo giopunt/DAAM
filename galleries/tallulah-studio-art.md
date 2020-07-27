@@ -3,7 +3,7 @@ Draft: false
 name: TALLULAH STUDIO ART
 website: https://tallulahstudioart.com/
 logo: /assets/screen-shot-2020-07-23-at-16.09.02.png
-address: Via Pietro Maroncelli, 12, 20154 Milano MI
+address: Piazzale Baiamonti, 3, 20154 Milano MI
 contacts: |-
   Tel. +39 335 592 9562
 
