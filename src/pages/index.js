@@ -70,7 +70,7 @@ const Home = () => (
               </div>
             </div>
 
-            <div className={styles.mainTextBig}>Fuorieventi milanesi della fiera che non c'è*</div>
+            <div className={styles.mainTextBig}>Fuorievento milanesi della fiera che non c'è*</div>
           </main>
         </section>
         <section className={`${styles.blueBg} ${styles.section}`}>
