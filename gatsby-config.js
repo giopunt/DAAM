@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `DAAM (dovevo andare al mia)`,
-    description: `Fuorievento milanesi della fiera che non c'è`,
+    description: `Fuorievento milanese della fiera che non c'è`,
     author: `@artebella`,
   },
   plugins: [
