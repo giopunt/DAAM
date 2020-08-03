@@ -7,6 +7,6 @@
   DAAM
 </h1>
 
-Fuorieventi milanesi della fiera che non c'è
+Fuorievento milanese della fiera che non c'è
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a3a14dac-afa9-43de-acfa-c481afbef796/deploy-status)](https://app.netlify.com/sites/daam/deploys)
