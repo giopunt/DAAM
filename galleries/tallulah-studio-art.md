@@ -3,9 +3,13 @@ Draft: false
 name: TALLULAH STUDIO ART
 website: https://tallulahstudioart.com/
 logo: /assets/screen-shot-2020-07-23-at-16.09.02.png
-address: Piazzale Baiamonti, 3, 20154 Milano MI
+address: |-
+  TALLULAH STUDIO ART in collaborazione con ISORROPIA HOMEGALLERY\
+  Viale Beatrice D’Este, 22 - 20122 Milano
 contacts: |-
-  Tel. +39 335 592 9562
+  Tel. +39 335 592 9562\
+  patriziamadau@tallulahstudioart.com\
+  info@isorropiahomegallery.com
 
   [Info Mail](mailto:info@tallulahstudioart.com)
 bio: >-
@@ -30,6 +34,6 @@ bio: >-
 
   Of relevance, among the gallery's recent works, the exhibition on the theme "Change - The Imaginative cells" in support of the LGBT community in collaboration with Arcus Pride Art Milan - for Clifford Chance. Tallulah Studio collaborates with young artists present in the recent international panorama such as Donatella Izzo, Federico Unia, Donata Clovis, Federica Angelino, Patrick Corrado ,, Riccardo Bonfadini, Floris Andrea, Ian Gamache, Fabio Roncato, Andrea Milano, Maria Giovanna Morelli, Donata Clovis, Daria Dziecielewska Mc Douglas, Jono Nussbaum, Jordi Suñé Ferrús, Furio Agiman, Claudio Magrassi, Michele Ardito, Mauro Vettore, Giampiero Gasparini.
 path: /tallulah-studio-art
-latitude: "45.4829072"
-longitude: "9.1834022"
+latitude: "45.4517060"
+longitude: "9.1917771"
 ---
