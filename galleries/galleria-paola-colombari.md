@@ -26,7 +26,7 @@ program: >-
   Preview Mia Photo Fair 2020
 
 
-  Artisti:  Uli Weber , Tom Vack , Alessandro Vasapolli , Monica Silva , Andrea de Carvalho , Marilù S.Manzini
+  Artisti:  Uli Weber, Tom Vack, Alessandro Vasapolli, Monica Silva, Andrea de Carvalho, Marilù S.Manzini
 bio: >-
   ITA:\
 
