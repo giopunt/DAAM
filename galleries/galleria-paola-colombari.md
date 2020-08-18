@@ -20,6 +20,13 @@ contacts: >-
 
 
   [@galleria_paola_colombari ](https://www.instagram.com/galleria_paola_colombari/)
+program: >-
+  Galleria Paola Colombari presenta:\
+
+  Preview Mia Photo Fair 2020
+
+
+  Artisti:  Uli Weber , Tom Vack , Alessandro Vasapolli , Monica Silva , Andrea de Carvalho , Marilù S.Manzini
 bio: >-
   ITA:\
 
