@@ -10,6 +10,26 @@ contacts: |-
   Tel. Pasubio +39 02 6596532
 
   [Info Mail](mailto:info@fabbricaeos.it)
+program: "DAVIDE BRAMANTE
+
+  \"New York, New Delhi, New old
+
+  a cura di Giacinto Di Pietrantonio
+
+  dal 10 settembre al 4 ottobre 2020
+
+  FABBRICA EOS Gallery, Viale Pasubio (ang. Via Bonnet) - Milano
+
+
+  MANUEL SCRIMA
+
+  \"Disembody\"
+
+  a cura di Chiara Canali
+
+  dal 25 settembre al 22 ottobre 2020
+
+  FABBRICA EOS Arte Contemporanea, P.le A. Baiamonti 2 - Milano"
 bio: >-
   ITA:\
 
