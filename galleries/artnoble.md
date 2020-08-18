@@ -20,6 +20,25 @@ contacts: |-
   +39 3519044340
 
   [Press Mail](mailto:press@artnoble.co.uk)
+program: |-
+  Artnoble presenta *Dialogues*
+
+  Giovedì 1 Ottobre
+  Anteprima Stampa: 10:00 – 16:30 – solo su invito
+  Vernissage: 18:30 – 22:00 – solo su invito
+
+
+  Venerdì 2 Ottobre
+  Apertura al pubblico: 10:00 – 21:00
+
+
+  Sabato 3 Ottobre
+  Apertura al pubblico: 10:00 – 21:00
+  Presentazione Libro “Dialogues”: 18:30
+
+
+  Domenica 4 Ottobre
+  Apertura al pubblico: 10:00 – 21:00
 bio: >-
   ITA: ArtNoble è una piattaforma espositiva e galleria d'arte dedicata alla
   promozione di talenti contemporanei, con l'obiettivo di superare le barriere
