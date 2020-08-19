@@ -27,6 +27,11 @@ program: >-
 
 
   Artisti:  Uli Weber, Tom Vack, Alessandro Vasapolli, Monica Silva, Andrea de Carvalho, Marilù S.Manzini
+
+
+  Opening 1 Ottobre dalle h.18,00 alle h.21,30
+
+  2/3/4 Ottobre dalle h.12 alle h.19 orario continuato
 bio: >-
   ITA:\
 
