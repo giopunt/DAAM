@@ -8,7 +8,7 @@ address: |-
   20124 Milano
 contacts: Tel/Fax +39 02 6694278
 program: >-
-  ADMIRA per DAAM \
+  ADMIRA per DAAM
 
 
   PROGRAMMA 1-4 OTTOBRE 2020
@@ -19,13 +19,11 @@ program: >-
   Dalle 18.00 alle 20.00 si potrà partecipare su invito agli aperitivi con i protagonisti della fotografia italiana del dopoguerra, che commenteranno personalmente le loro opere proiettate su grande schermo e risponderanno alle curiosità dei loro collezionisti in un’atmosfera informale (e sempre ben protetta).
 
 
-
   GIOVEDI 1 OTTOBRE
 
   MARIO DE BIASI  Il coraggio e l’intraprendenza per costruire una professione nel fotogiornalismo e nell’arte.
 
   Incontro con la figlia Silvia De Biasi, responsabile di uno degli archivi più vasti e affascinanti d’Italia, che conserva le fotografie scattate nelle diverse fasi della carriera di Mario De Biasi: dalle prime immagini del periodo neorealista ai numerosi e scapestrati reportage realizzati in trent’anni di servizio al settimanale Epoca, fino alle sue poetiche interpretazioni della natura.
-
 
 
   VENERDI 2 OTTOBRE
@@ -35,13 +33,11 @@ program: >-
   Incontro con due autori che hanno vissuto dal di dentro le esperienze dei circoli, luoghi al centro del dibattito sulla fotografia e stimolo per fotoamatori e futuri professionisti. Entrambi i fotografi saranno presenti per approfondire il loro racconto visivo dell’Italia in trasformazione e spiegare il fenomeno di club come il Circolo Fotografico Milanese e il CineFotoClub di Brescia.
 
 
-
   SABATO 3 OTTOBRE
 
   MARIO INGROSSO   Il viaggio antropologico con la macchina fotografica in quell’Italia ancora senza autostrade. 
 
   Incontro con Mario Ingrosso con le sue avventure fotografiche lungo la penisola italiana e le incursioni nella sua Milano . Ingegnoso e guidato da una vera passione per la fotografia e per l’essere umano, Mario si è spinto oltre le storie e oltre i luoghi, cercando di cogliere qualcosa di originale, sempre con audacia e, a volte, un po’ di incoscienza, alimentando un ventaglio di spassosi aneddoti.
-
 
 
   DOMENICA 4 OTTOBRE
