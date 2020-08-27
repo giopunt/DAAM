@@ -29,6 +29,7 @@ class Gallery extends React.Component {
   
     const {
       address,
+      program,
       contacts,
       bio,
       name,
@@ -62,6 +63,10 @@ class Gallery extends React.Component {
             {contacts && <section className={styles.section}>
               <h3 className={styles.subtitle}>Contatti</h3>
               <ReactMarkdown source={contacts} escapeHtml={false} parserOptions={{ commonmark: true }} />
+            </section>}
+
+            {program && <section className={styles.section}>
+              <ReactMarkdown className={styles.programma} source={program} escapeHtml={false} parserOptions={{ commonmark: true }} />
             </section>}
   
             {bio && <section className={`${styles.section} ${styles.bio} ${this.state.expandBio ? styles.expand : styles.collapse}`}>
@@ -100,6 +105,7 @@ export const query = graphql`
         latitude
         longitude
         logo
+        program
       }
     }
   }

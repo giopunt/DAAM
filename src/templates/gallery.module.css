@@ -105,3 +105,7 @@
 .collapse .bioText {
   max-height: 0px;
 }
+
+.programma p {
+  padding-top: 15px;
+}
