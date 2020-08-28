@@ -54,4 +54,8 @@ bio: >-
 path: /galleries/artnoble
 latitude: "45.4792271"
 longitude: "9.2080117"
+slider: /assets/senza-titolo-1_link-ii.jpg
+slider2: /assets/senza-titolo-7_link.jpg
+slider3: /assets/senza-titolo-8_dialogues.jpg
+slider4: /assets/senza-titolo-12_dialogues.jpg
 ---
