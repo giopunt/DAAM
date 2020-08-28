@@ -9,5 +9,5 @@ description: Incontro con due autori che hanno vissuto dal di dentro le
   trasformazione e spiegare il fenomeno di club come il Circolo Fotografico
   Milanese e il CineFotoClub di Brescia.
 gallery: ADMIRA
-date: 2020-10-02T11:00:00.000Z
+date: 2020-10-02T16:00:00.000Z
 ---
