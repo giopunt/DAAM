@@ -1,5 +1,5 @@
 ---
-Draft: true
+Draft: false
 title: ERNESTO FANTOZZI e EROS FIAMMETTI  Il valore insostituibile dei Circoli
   Fotografici per la storia della fotografia italiana.
 description: Incontro con due autori che hanno vissuto dal di dentro le
