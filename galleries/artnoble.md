@@ -22,7 +22,7 @@ contacts: |-
   [Press Mail](mailto:press@artnoble.co.uk)
 program: >-
   Dall’1 al 4 Ottobre, ArtNoble presenta il fotografo emergente Alberto
-  Selvestrel, il suo nuovo corpus di lavori e il lancio del suo nuovo libro.\
+  Selvestrel, il suo nuovo corpus di lavori e il lancio del suo nuovo libro.
 
 
   Proseguendo con la propria missione di trovare e promuovere nuovi artisti emergenti e di curare mostre site-specific, ArtNoble è lieto di annunciare il debutto del giovane fotografo italiano, Alberto Selvestrel. A causa dell'emergenza Covid-19, il MIA Photo Fair, dove Selvestrel avrebbe dovuto esporre, è stato annullato, ma ArtNoble ha deciso di aderire al progetto DAAM (Dovevo Andare Al MIA) per continuare la propria attività di sostegno nei confronti di giovani artisti.\
