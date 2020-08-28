@@ -1,5 +1,5 @@
 ---
-Draft: true
+Draft: false
 title: MARIO DE BIASI  Il coraggio e l’intraprendenza per costruire una
   professione nel fotogiornalismo e nell’arte.
 description: "Incontro con la figlia Silvia De Biasi, responsabile di uno degli
