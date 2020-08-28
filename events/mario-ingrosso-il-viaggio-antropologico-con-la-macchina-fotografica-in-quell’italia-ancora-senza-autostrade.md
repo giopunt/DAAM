@@ -1,5 +1,5 @@
 ---
-Draft: true
+Draft: false
 title: MARIO INGROSSO Il viaggio antropologico con la macchina fotografica in
   quell’Italia ancora senza autostrade.
 description: Incontro con Mario Ingrosso con le sue avventure fotografiche lungo
