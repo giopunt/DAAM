@@ -1,5 +1,5 @@
 ---
-Draft: true
+Draft: false
 title: NINO MIGLIORI Il punto di vista di un fotografo che non ha mai smesso di
   sperimentare con il linguaggio fotografico e la materia.
 description: Incontro con Nino Migliori, che dall’alto dei suoi 94 anni ha
