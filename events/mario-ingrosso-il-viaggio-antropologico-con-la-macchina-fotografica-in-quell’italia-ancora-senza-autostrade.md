@@ -9,5 +9,5 @@ description: Incontro con Mario Ingrosso con le sue avventure fotografiche lungo
   sempre con audacia e, a volte, un po’ di incoscienza, alimentando un ventaglio
   di spassosi aneddoti.
 gallery: ADMIRA
-date: 2020-10-03T12:00:00.000Z
+date: 2020-10-03T16:00:00.000Z
 ---
