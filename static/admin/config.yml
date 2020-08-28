@@ -20,16 +20,39 @@ collections:
       - { name: contacts, label: Contacts, widget: markdown }
       - { name: program, label: Programma, widget: markdown, required: false }
       - { name: bio, label: Bio, widget: markdown }
-      - { 
-          name: slider,
-          label: "Photo Slider",
-          widget: image,
-          required: false,
-          allow_multiple: true
-        }
       - { name: path, label: Path }
       - { name: latitude, label: Latitude, widget: string, required: false }
       - { name: longitude, label: Longitude, widget: string, required: false }
+      - { 
+          name: slider,
+          label: "Photo Slider 1",
+          widget: image,
+          required: false
+        }
+      - { 
+          name: slider2,
+          label: "Photo Slider 2",
+          widget: image,
+          required: false
+        }
+      - { 
+          name: slider3,
+          label: "Photo Slider 3",
+          widget: image,
+          required: false
+        }
+      - { 
+          name: slider4,
+          label: "Photo Slider 4",
+          widget: image,
+          required: false
+        }
+      - { 
+          name: slider5,
+          label: "Photo Slider 5",
+          widget: image,
+          required: false
+        }
 
   - name: event
     label: Event
