@@ -20,25 +20,18 @@ contacts: |-
   +39 3519044340
 
   [Press Mail](mailto:press@artnoble.co.uk)
-program: |-
-  Artnoble presenta *Dialogues*
-
-  Giovedì 1 Ottobre
-  Anteprima Stampa: 10:00 – 16:30 – solo su invito
-  Vernissage: 18:30 – 22:00 – solo su invito
+program: >-
+  Dall’1 al 4 Ottobre, ArtNoble presenta il fotografo emergente Alberto
+  Selvestrel, il suo nuovo corpus di lavori e il lancio del suo nuovo libro.\
 
 
-  Venerdì 2 Ottobre
-  Apertura al pubblico: 10:00 – 21:00
+  Proseguendo con la propria missione di trovare e promuovere nuovi artisti emergenti e di curare mostre site-specific, ArtNoble è lieto di annunciare il debutto del giovane fotografo italiano, Alberto Selvestrel. A causa dell'emergenza Covid-19, il MIA Photo Fair, dove Selvestrel avrebbe dovuto esporre, è stato annullato, ma ArtNoble ha deciso di aderire al progetto DAAM (Dovevo Andare Al MIA) per continuare la propria attività di sostegno nei confronti di giovani artisti.\
 
 
-  Sabato 3 Ottobre
-  Apertura al pubblico: 10:00 – 21:00
-  Presentazione Libro “Dialogues”: 18:30
+  Selvestrel è noto per la sua particolare attenzione ai paesaggi che coniugano sintesi e luminosità. Nella sua nuova serie, Selvestrel analizza il rapporto tra l’ambiente naturale e quello costruito. Il suo lavoro mette in discussione il rapporto di coesione tra la sua distonica visione del mondo e le suggestive geometrie architettoniche, trasportando lo spettatore in un mondo dove l’opera dell'uomo e l’opera della natura possono convivere senza tensioni.\
 
 
-  Domenica 4 Ottobre
-  Apertura al pubblico: 10:00 – 21:00
+  In concomitanza con la mostra, ArtNoble presenterà al pubblico il nuovo libro di Alberto Selvestrel intitolato "Dialogues", che includerà il suo ultimo corpus di lavori.
 bio: >-
   ITA: ArtNoble è una piattaforma espositiva e galleria d'arte dedicata alla
   promozione di talenti contemporanei, con l'obiettivo di superare le barriere
