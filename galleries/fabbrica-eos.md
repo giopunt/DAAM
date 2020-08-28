@@ -66,4 +66,8 @@ bio: >-
 path: /fabbrica-eos
 latitude: "45.4824365"
 longitude: "9.182337"
+slider: /assets/bramante-milano-verticale-2019-esposizione-multipla-non-digitale-cm.-180x120.jpg
+slider2: /assets/bramante-milano-the-mall-2019-esposizione-multipla-non-digitale-cm.-70x100.jpg
+slider3: /assets/disembodiedness-010-metopa-2013-2017-stampa-su-lastre-di-vetro-100x100cm.jpg
+slider4: /assets/disembodiedness-080-buio-2013-2017-stampa-su-lastra-di-vetro-e-lastra-di-plexiglass-bianco-opalino-100x100cm.jpg
 ---
