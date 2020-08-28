@@ -9,5 +9,5 @@ description: Incontro con Nino Migliori, che dall’alto dei suoi 94 anni ha
   concettuali e agli esperimenti on e off camera, Migliori è sempre stato
   partecipe del suo tempo e della società in continuo cambiamento.
 gallery: ADMIRA
-date: 2020-10-03T22:00:00.000Z
+date: 2020-10-04T12:00:00.000Z
 ---
