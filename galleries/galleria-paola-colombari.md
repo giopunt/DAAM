@@ -60,4 +60,9 @@ bio: >-
 path: /galleria-paola-colombari
 latitude: "45.4827666"
 longitude: "9.1814113"
+slider: /assets/alessandro-vasapolli-on-form-ii-progetto-“dance-notes”.jpg
+slider2: /assets/marilù-s.manzini-the-kiss-jail-lambda-print-on-aluminum-d-bond-3mm.-sizes-140-x-120-cm.-limited-edition-n.-6-2-ap-year-2019.jpg
+slider3: /assets/monica-silva-tilda-swinton-fine-art-baryta-paper-prestige-340-canson-infinity-paper-with-aluminum-d-bond-support-and-acrylic-panel-5mm-plexiglass-sizes-120-x-106-cm-limited-edition-n.6-2-ap-year-2015.jpg
+slider4: /assets/024_uli_weber_the_allure_of_horses.jpg
+slider5: /assets/faded-glory-tom-vack-printed-baryta-paper.-assembly-on-artframe-satin-aluminum-frame-th.-4-cm-anti-reflective-glass-medium-size-130-x-97-cm-limited-edition-n.6-2ap-large-size-175-x-130-cm-limited-edition-n.6-2ap-year-2019.jpeg
 ---
