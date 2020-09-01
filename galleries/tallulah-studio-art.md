@@ -12,16 +12,7 @@ contacts: |-
   info@isorropiahomegallery.com
 
   [Info Mail](mailto:info@tallulahstudioart.com)
-program: >-
-  TALLULAH STUDIO ART in collaborazione con ISORROPIA HOMEGALLERY
-
-
-
-  Anteprima stampa giovedì 1 ottobre 2020, dalle 10.30 alle 14.30 – RSVP 
-
-  Inaugurazione         giovedì 1 ottobre 2020, dalle 16 alle 21, su invito, con registrazione 
-
-  In mostra                 dal 4 al 6 ottobre 2020, previa registrazione
+program: TALLULAH STUDIO ART in collaborazione con ISORROPIA HOMEGALLERY
 bio: >-
   ITA:
 
