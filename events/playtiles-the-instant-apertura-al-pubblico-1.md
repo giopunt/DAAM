@@ -1,5 +1,5 @@
 ---
-Draft: true
+Draft: false
 title: PLAYTILES - THE INSTANT Apertura al pubblico
 description: PLAYTILES - THE INSTANT, TALLULAH STUDIO ART in collaborazione con
   ISORROPIA HOMEGALLERY apre al pubblico dalle ore 16 alle 20 previa
