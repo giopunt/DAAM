@@ -2,6 +2,7 @@
 Draft: false
 name: STILL fotografia
 website: https://www.stillfotografia.it/
+logo: /assets/still-logo-positivo.jpg
 address: |-
   Via Zamenhof 11,
 
@@ -85,4 +86,8 @@ bio: >-
 path: /still-fotografia
 latitude: "45.4451649"
 longitude: "9.1780915"
+slider: /assets/larrybird.jpg
+slider2: /assets/michael-schumachermc.jpg
+slider3: /assets/img_8855.jpg
+slider4: /assets/img_8064.jpg
 ---
