@@ -49,4 +49,9 @@ bio: >-
 path: /galleria-valieria-bella
 latitude: "45.467199"
 longitude: "9.1981493"
+slider: /assets/13-spezie-_-delpiano-.jpg
+slider2: /assets/arome-rose_delpiano.jpg
+slider3: /assets/studies-on-cartographic-projection-2m.jpg
+slider4: /assets/ditticoscuro-lr.jpg
+slider5: /assets/8x10_0548_afl_sf8_web.jpg
 ---
