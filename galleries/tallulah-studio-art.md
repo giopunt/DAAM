@@ -37,4 +37,8 @@ bio: >-
 path: /tallulah-studio-art
 latitude: "45.4517060"
 longitude: "9.1917771"
+slider: /assets/midtown-2019-bassa-federica-angelino-60x90cm-stampa-fotografica-baryta-ed-2_10-copia-3.jpeg
+slider2: /assets/donatella-izzo.-the-last-day-in-october.-2016.-stampa-giclèe-su-carta-100-cotone-cm45x60-ed.-2_10-copia.jpeg
+slider3: /assets/donata-clovis-goldenboy-on-the-road-s12x12cm-ed-1_7-mg_3149-simg_8689-copia.jpeg
+slider4: /assets/_donata-clovis-alone-on-the-road-12x12cm-ed-1_7-mg_3149-mg_4573-copia.jpeg
 ---
