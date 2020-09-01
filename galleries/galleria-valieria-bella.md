@@ -14,6 +14,13 @@ contacts: |-
   [Info Mail Photo](mailto:photo@valeriabella.com)
 
   [Info Mail Stampe](mailto:bellastampe@valeriabella.com)
+program: >-
+  In occasione di DAAM, dovevo andare al MIA, Galleria Valeria Bella metterà in
+  mostra il programma che era stato pensato per l’edizione 2020 di MIA Fair,
+  quella del decennale.
+
+
+  Quattro gli autori in mostra, dall’ 1 al 4 ottobre presso la sede della galleria: Margherita Del Piano, Thomas Hauser, Davide Monteleone e Sofia Uslenghi.
 bio: >-
   ITA:
 
