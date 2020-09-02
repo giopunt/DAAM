@@ -83,11 +83,13 @@ class Gallery extends React.Component {
               <ReactMarkdown className={styles.programma} source={program} escapeHtml={false} parserOptions={{ commonmark: true }} />
             </section>}
 
-            <div id="gallery-slider">
+            {
+              slider && <div id="gallery-slider">
               <Carousel dynamicHeight={true} showThumbs={false}>
                 {slides.filter(slide => slide !== null).map(slide => slide && <img src={slide} alt="" className={styles.slide} key={slide} />)}
               </Carousel>
             </div>
+            }
   
             {bio && <section className={`${styles.section} ${styles.bio} ${this.state.expandBio ? styles.expand : styles.collapse}`}>
               <button onClick={this.expandBio} className={styles.bioBtn}>
