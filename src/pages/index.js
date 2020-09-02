@@ -53,7 +53,7 @@ const Home = () => (
           className={`${styles.coverbg} ${styles.section} rellax`}
           style={
             {
-              backgroundImage: `url(${imageData.src}), linear-gradient(#3adaee, #3adaee), linear-gradient(90deg, #3adaee, #3adaee)`
+              backgroundImage: `url(${imageData.src}), linear-gradient(#94e4fc, #94e4fc), linear-gradient(90deg, #94e4fc, #94e4fc)`
             }
           }
         >
