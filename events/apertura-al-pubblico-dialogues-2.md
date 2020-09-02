@@ -1,5 +1,5 @@
 ---
-Draft: true
+Draft: false
 title: Dialogues - Apertura al pubblico
 description: fotografie di Alberto Selvestrel
 gallery: ARTNOBLE
