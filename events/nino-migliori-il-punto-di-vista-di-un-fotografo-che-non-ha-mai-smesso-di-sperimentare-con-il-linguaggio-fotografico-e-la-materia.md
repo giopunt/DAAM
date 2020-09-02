@@ -10,4 +10,5 @@ description: Incontro con Nino Migliori, che dall’alto dei suoi 94 anni ha
   partecipe del suo tempo e della società in continuo cambiamento.
 gallery: ADMIRA
 date: 2020-10-04T16:00:00.000Z
+endDate: 2020-10-04T18:00:00.000Z
 ---
