@@ -120,7 +120,10 @@ const Home = () => (
                         data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-01") !== -1)
                         .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
                           <div className={styles.eventName}>{event.node.frontmatter.title}</div>
-                          <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
+                          <div className={styles.eventGalleryName}>Presso<br/><a href={data.galleries.edges.find(gallery => {
+                            const galleryname = event.node.frontmatter.gallery.split(' ').join('-').toLowerCase();
+                            return gallery.node.frontmatter.path.indexOf(galleryname) !== -1
+                          }).node.frontmatter.path}>{event.node.frontmatter.gallery}</a></div>
                         </div>)
                     }
                   </div>
@@ -132,7 +135,10 @@ const Home = () => (
                         data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-02") !== -1)
                         .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
                           <div className={styles.eventName}>{event.node.frontmatter.title}</div>
-                          <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
+                          <div className={styles.eventGalleryName}>Presso<br/><a href={data.galleries.edges.find(gallery => {
+                            const galleryname = event.node.frontmatter.gallery.split(' ').join('-').toLowerCase();
+                            return gallery.node.frontmatter.path.indexOf(galleryname) !== -1
+                          }).node.frontmatter.path}>{event.node.frontmatter.gallery}</a></div>
                         </div>)
                     }
                   </div>
@@ -144,7 +150,10 @@ const Home = () => (
                         data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-03") !== -1)
                         .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
                           <div className={styles.eventName}>{event.node.frontmatter.title}</div>
-                          <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
+                          <div className={styles.eventGalleryName}>Presso<br/><a href={data.galleries.edges.find(gallery => {
+                            const galleryname = event.node.frontmatter.gallery.split(' ').join('-').toLowerCase();
+                            return gallery.node.frontmatter.path.indexOf(galleryname) !== -1
+                          }).node.frontmatter.path}>{event.node.frontmatter.gallery}</a></div>
                         </div>)
                     }
                   </div>
@@ -156,7 +165,10 @@ const Home = () => (
                         data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-04") !== -1)
                         .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
                           <div className={styles.eventName}>{event.node.frontmatter.title}</div>
-                          <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
+                          <div className={styles.eventGalleryName}>Presso<br/><a href={data.galleries.edges.find(gallery => {
+                            const galleryname = event.node.frontmatter.gallery.split(' ').join('-').toLowerCase();
+                            return gallery.node.frontmatter.path.indexOf(galleryname) !== -1
+                          }).node.frontmatter.path}>{event.node.frontmatter.gallery}</a></div>
                         </div>)
                     }
                   </div>
