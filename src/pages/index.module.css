@@ -142,3 +142,35 @@
 .arrowIcon {
   width: 44px;
 }
+
+.eventsDate {
+  text-align: center;
+  font-size: 43px;
+  font-family: "Averia Serif Libre", Arial, Helvetica, sans-serif;
+  margin: 30px 0 0;
+}
+
+.eventsList {
+  padding: 10px 0;
+}
+
+.eventWrapper {
+ border-bottom: 2px solid #000;
+ padding: 40px 0 30px;
+}
+
+.eventWrapper:last-of-type {
+  border: 0px;
+}
+
+.eventName {
+  font-size: 20px;
+  text-decoration: underline;
+  padding-bottom: 15px;
+  line-height: 29px;
+}
+
+.eventGalleryName {
+  font-size: 18px;
+  line-height: 27px;
+}

@@ -2,7 +2,6 @@ import React from "react"
 import { graphql, StaticQuery } from 'gatsby'
 
 import Seo from "../components/seo"
-import Newsletter from "../components/newsletter"
 import Galleries from "../components/galleries"
 import Footer from "../components/footer"
 
@@ -23,10 +22,10 @@ const Home = () => (
             }
           }
         }
-        allMarkdownRemark(
+        galleries: allMarkdownRemark(
           filter: { 
             fileAbsolutePath: { regex: "/(galleries)/" }
-            frontmatter: { Draft: { eq: false } } 
+            frontmatter: { Draft: { eq: false } }
           }
         ) {
           edges {
@@ -38,6 +37,24 @@ const Home = () => (
                 address
                 latitude
                 longitude
+              }
+            }
+          }
+        }
+        events: allMarkdownRemark(
+          filter: { 
+            fileAbsolutePath: { regex: "/(events)/" }
+            frontmatter: { Draft: { eq: false } } 
+          }
+        ) {
+          edges {
+            node {
+              id
+              frontmatter {
+                title
+                description
+                gallery
+                date
               }
             }
           }
@@ -92,12 +109,48 @@ const Home = () => (
               </div>
             </div>
 
-            <div className={styles.mainTextMedium}>
-              Dal 1 settembre sarà disponibile online la lista completa degli eventi, torna a trovarci!
-              <br/><br/>
-              Nel frattempo esplora le gallerie partecipanti e visto che ci sei iscriviti alla newsletter per rimanere sempre aggiornato
+            <div>
+              <h3 className={styles.eventsDate}>1 ottobre</h3>
+              <div className={styles.eventsList}>
+                {
+                    data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-01") !== -1)
+                    .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
+                      <div className={styles.eventName}>{event.node.frontmatter.title}</div>
+                      <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
+                    </div>)
+                }
+              </div>
+              <h3 className={styles.eventsDate}>2 ottobre</h3>
+              <div className={styles.eventsList}>
+              {
+                  data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-02") !== -1)
+                  .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
+                      <div className={styles.eventName}>{event.node.frontmatter.title}</div>
+                      <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
+                  </div>)
+              }
+              </div>
+              <h3 className={styles.eventsDate}>3 ottobre</h3>
+              <div className={styles.eventsList}>
+              {
+                data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-03") !== -1)
+                .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
+                    <div className={styles.eventName}>{event.node.frontmatter.title}</div>
+                    <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
+                </div>)
+              }
+              </div>
+              <h3 className={styles.eventsDate}>4 ottobre</h3>
+              <div className={styles.eventsList}>
+              {
+                data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-04") !== -1)
+                .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
+                    <div className={styles.eventName}>{event.node.frontmatter.title}</div>
+                    <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
+                </div>)
+              }
+              </div>
             </div>
-            <Newsletter/>
           </main>
         </section>
         <section className={`${styles.section} ${styles.pinkBg}`}>
@@ -117,7 +170,7 @@ const Home = () => (
                 <h2 className={styles.subtitle}>Locations</h2>
               </div>
             </div>
-            <GalleriesMap data={data.allMarkdownRemark} />
+            <GalleriesMap data={data.galleries} />
           </main>
         </section>
         <Footer />
