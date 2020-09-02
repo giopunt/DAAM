@@ -73,12 +73,17 @@ bio: >-
 
 
   Podbielski Contemporary aims to merge art dealing activities with academic research, presenting special events such as artists talks, performances, conferences and screening evenings, to become not only a lively space for art lovers and art collectors, but also a cultural destination for young scholars and for the Berlin art community in general. May its small-scale intervention help sustain wider efforts in overcoming the compartmentalization of the art field between public and private institutions.
-pressRelease1: /assets/benyamin-reich_pieta-iii-sinai_2016_silver-gelatin-print-wooden-frame-and-museum-glass_30x22-cm_-podbielski-contemporary.png
-pressRelease2: /assets/ferdinando-scianna_amsterdam_1990_silver-gelatin_print_40x50-cm_-podbielski-contemporary.jpg
-pressRelease3: /assets/lady-tarin_l-abbraccio_2013_giclèe-print-on-baryt-papaer-and-alu-dibond_30x45-cm_-podbielski-contemporary.jpg
-pressRelease4: /assets/odalisque-noire-femme-obsure-2011-6-30-46.jpg
-pressRelease5: /assets/uurh5992.jpg
+pressRelease1: ""
+pressRelease2: ""
+pressRelease3: ""
+pressRelease4: ""
+pressRelease5: ""
 path: /podbielski-contemporary
 latitude: "45.4670906"
 longitude: "9.1722806"
+slider: /assets/benyamin-reich_pieta-iii-sinai_2016_silver-gelatin-print-wooden-frame-and-museum-glass_30x22-cm_-podbielski-contemporary.png
+slider2: /assets/ferdinando-scianna_amsterdam_1990_silver-gelatin_print_40x50-cm_-podbielski-contemporary.jpg
+slider3: /assets/lady-tarin_l-abbraccio_2013_giclèe-print-on-baryt-papaer-and-alu-dibond_30x45-cm_-podbielski-contemporary.jpg
+slider4: /assets/odalisque-noire-femme-obsure-2011-6-30-46.jpg
+slider5: /assets/uurh5992.jpg
 ---
