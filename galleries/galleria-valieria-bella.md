@@ -2,6 +2,7 @@
 Draft: false
 name: Galleria Valeria Bella
 website: http://www.valeriabella.com/home.htm
+logo: /assets/logo-galleriavaleriabella.png
 address: |-
   Via Santa Cecilia, 2 20122 Milano
 
