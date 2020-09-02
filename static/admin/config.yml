@@ -20,6 +20,9 @@ collections:
       - { name: contacts, label: Contacts, widget: markdown }
       - { name: program, label: Programma, widget: markdown, required: false }
       - { name: bio, label: Bio, widget: markdown }
+      - { name: pressRelease1, label: "Press Release 1", widget: file }
+      - { name: pressRelease2, label: "Press Release 2", widget: file }
+      - { name: pressRelease3, label: "Press Release 3", widget: file }
       - { name: path, label: Path }
       - { name: latitude, label: Latitude, widget: string, required: false }
       - { name: longitude, label: Longitude, widget: string, required: false }
