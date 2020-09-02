@@ -1,5 +1,5 @@
 ---
-Draft: true
+Draft: false
 title: Dialogues -  Anteprima stampa solo su invito
 description: >-
   fotografie di Alberto Selvestrel, per maggiori informazioni contattare
