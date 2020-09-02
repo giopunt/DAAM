@@ -7,5 +7,5 @@ description: TALLULAH STUDIO ART in collaborazione con ISORROPIA HOMEGALLERY
   info@tallulahstudioart.com / info@isorropiahomegallery.com
 gallery: TALLULAH STUDIO ART
 date: 2020-10-01T14:00:00.000Z
-endDate: 2020-10-01T14:00:00.000Z
+endDate: 2020-10-01T19:00:00.000Z
 ---
