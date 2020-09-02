@@ -7,5 +7,5 @@ description: PLAYTILES - THE INSTANT, TALLULAH STUDIO ART in collaborazione con
   info@isorropiahomegallery.com
 gallery: TALLULAH STUDIO ART
 date: 2020-10-03T14:00:00.000Z
-endDate: 2020-09-02T09:09:01.721Z
+endDate: 2020-10-03T19:00:00.000Z
 ---
