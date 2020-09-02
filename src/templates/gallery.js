@@ -44,6 +44,14 @@ class Gallery extends React.Component {
       slider4,
       slider5
     } = node.frontmatter
+
+    const slides = [
+      slider,
+      slider2,
+      slider3,
+      slider4,
+      slider5
+    ]
   
     return (
       <div>
@@ -77,11 +85,7 @@ class Gallery extends React.Component {
 
             <div id="gallery-slider">
               <Carousel dynamicHeight={true} showThumbs={false}>
-                {slider && <img src={slider} alt="" className={styles.slide} />}
-                {slider2 && <img src={slider2} alt="" className={styles.slide} />}
-                {slider3 && <img src={slider3} alt="" className={styles.slide} />}
-                {slider4 && <img src={slider4} alt="" className={styles.slide} />}
-                {slider5 && <img src={slider5} alt="" className={styles.slide} />}
+                {slides.filter(slide => slide !== null).map(slide => slide && <img src={slide} alt="" className={styles.slide} key={slide} />)}
               </Carousel>
             </div>
   
