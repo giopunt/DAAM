@@ -42,7 +42,8 @@ class Gallery extends React.Component {
       slider2,
       slider3,
       slider4,
-      slider5
+      slider5,
+      pressRelease1
     } = node.frontmatter
 
     const slides = [
@@ -51,6 +52,10 @@ class Gallery extends React.Component {
       slider3,
       slider4,
       slider5
+    ]
+
+    const documents = [
+      pressRelease1
     ]
   
     return (
@@ -86,9 +91,9 @@ class Gallery extends React.Component {
             {
               slider && <div id="gallery-slider">
               <Carousel dynamicHeight={true} showThumbs={false}>
-                {slides.filter(slide => slide !== null).map(slide => slide && <img src={slide} alt="" className={styles.slide} key={slide} />)}
-              </Carousel>
-            </div>
+                  {slides.filter(slide => slide !== null).map(slide => slide && <img src={slide} alt="" className={styles.slide} key={slide} />)}
+                </Carousel>
+              </div>
             }
   
             {bio && <section className={`${styles.section} ${styles.bio} ${this.state.expandBio ? styles.expand : styles.collapse}`}>
@@ -100,6 +105,11 @@ class Gallery extends React.Component {
                 <ReactMarkdown source={bio} escapeHtml={true} parserOptions={{ commonmark: true }} />
               </div>
             </section>}
+
+            {pressRelease1 && <div className={styles.allegati}>
+            <h3 className={styles.subtitle}>Allegati</h3>
+            {documents.filter(doc => doc !== null).map(doc => <p key={doc} className={styles.doc}><a href={doc}>{doc.replace('/assets/', '')}</a></p>)}
+          </div>}
           </main>
           
           <section className={styles.section}>
@@ -133,6 +143,7 @@ export const query = graphql`
         slider3
         slider4
         slider5
+        pressRelease1
       }
     }
   }
