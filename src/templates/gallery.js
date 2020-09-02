@@ -2,6 +2,7 @@ import React from "react"
 import loadable from '@loadable/component'
 import { Link, graphql } from "gatsby"
 import ReactMarkdown from "react-markdown"
+import { Carousel } from "react-responsive-carousel"
 
 import Footer from "../components/footer"
 import Seo from "../components/seo"
@@ -36,7 +37,12 @@ class Gallery extends React.Component {
       website,
       latitude,
       longitude,
-      logo
+      logo,
+      slider,
+      slider2,
+      slider3,
+      slider4,
+      slider5
     } = node.frontmatter
   
     return (
@@ -68,6 +74,16 @@ class Gallery extends React.Component {
             {program && <section className={styles.section}>
               <ReactMarkdown className={styles.programma} source={program} escapeHtml={false} parserOptions={{ commonmark: true }} />
             </section>}
+
+            <div id="gallery-slider">
+              <Carousel dynamicHeight={true} showThumbs={false}>
+                {slider && <img src={slider} alt="" className={styles.slide} />}
+                {slider2 && <img src={slider2} alt="" className={styles.slide} />}
+                {slider3 && <img src={slider3} alt="" className={styles.slide} />}
+                {slider4 && <img src={slider4} alt="" className={styles.slide} />}
+                {slider5 && <img src={slider5} alt="" className={styles.slide} />}
+              </Carousel>
+            </div>
   
             {bio && <section className={`${styles.section} ${styles.bio} ${this.state.expandBio ? styles.expand : styles.collapse}`}>
               <button onClick={this.expandBio} className={styles.bioBtn}>
@@ -106,6 +122,11 @@ export const query = graphql`
         longitude
         logo
         program
+        slider
+        slider2
+        slider3
+        slider4
+        slider5
       }
     }
   }

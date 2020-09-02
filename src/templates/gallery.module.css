@@ -96,6 +96,11 @@
 
 .bioText {
   transition: max-height 0.5s ease-in-out;
+  font-size: 18px;
+}
+
+.bioText p {
+  padding-top: 15px;
 }
 
 .expand .bioText {
@@ -108,4 +113,16 @@
 
 .programma p {
   padding-top: 15px;
+  font-size: 18px;
+}
+
+.slide {
+  flex-direction: column;
+  flex-flow: column;
+  min-width: 100%;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+  width: 100%;
 }
