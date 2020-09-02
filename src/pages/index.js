@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, StaticQuery } from 'gatsby'
+import { Carousel } from "react-responsive-carousel"
 
 import Seo from "../components/seo"
 import Galleries from "../components/galleries"
@@ -7,6 +8,7 @@ import Footer from "../components/footer"
 
 import logo from "./logo.svg"
 import styles from "./index.module.css"
+
 
 import loadable from '@loadable/component'
 const GalleriesMap = loadable(() => import('../components/galleries-map'))
@@ -102,54 +104,64 @@ const Home = () => (
           </main>
         </section>
         <section className={`${styles.section} ${styles.greenBg}`}>
-          <main className={styles.content}>
-            <div className={styles.head}>
+          <main className={`${styles.content} ${styles.fullwidth}`}>
+            <div className={`${styles.head} ${styles.max}`}>
               <div>
                 <h2 className={styles.subtitle}>Eventi</h2>
               </div>
             </div>
 
-            <div>
-              <h3 className={styles.eventsDate}>1 ottobre</h3>
-              <div className={styles.eventsList}>
-                {
-                    data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-01") !== -1)
-                    .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
-                      <div className={styles.eventName}>{event.node.frontmatter.title}</div>
-                      <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
-                    </div>)
-                }
-              </div>
-              <h3 className={styles.eventsDate}>2 ottobre</h3>
-              <div className={styles.eventsList}>
-              {
-                  data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-02") !== -1)
-                  .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
-                      <div className={styles.eventName}>{event.node.frontmatter.title}</div>
-                      <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
-                  </div>)
-              }
-              </div>
-              <h3 className={styles.eventsDate}>3 ottobre</h3>
-              <div className={styles.eventsList}>
-              {
-                data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-03") !== -1)
-                .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
-                    <div className={styles.eventName}>{event.node.frontmatter.title}</div>
-                    <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
-                </div>)
-              }
-              </div>
-              <h3 className={styles.eventsDate}>4 ottobre</h3>
-              <div className={styles.eventsList}>
-              {
-                data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-04") !== -1)
-                .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
-                    <div className={styles.eventName}>{event.node.frontmatter.title}</div>
-                    <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
-                </div>)
-              }
-              </div>
+            <div id="events-list">
+             <Carousel dynamicHeight={true} showThumbs={false}>
+                <div key="date1">
+                  <h3 className={styles.eventsDate}>1 ottobre</h3>
+                  <div className={styles.eventsList}>
+                    {
+                        data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-01") !== -1)
+                        .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
+                          <div className={styles.eventName}>{event.node.frontmatter.title}</div>
+                          <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
+                        </div>)
+                    }
+                  </div>
+                </div>
+                <div key="date2">
+                  <h3 className={styles.eventsDate}>2 ottobre</h3>
+                  <div className={styles.eventsList}>
+                    {
+                        data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-02") !== -1)
+                        .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
+                          <div className={styles.eventName}>{event.node.frontmatter.title}</div>
+                          <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
+                        </div>)
+                    }
+                  </div>
+                </div>
+                <div key="date3">
+                  <h3 className={styles.eventsDate}>3 ottobre</h3>
+                  <div className={styles.eventsList}>
+                    {
+                        data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-03") !== -1)
+                        .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
+                          <div className={styles.eventName}>{event.node.frontmatter.title}</div>
+                          <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
+                        </div>)
+                    }
+                  </div>
+                </div>
+                <div key="date4">
+                  <h3 className={styles.eventsDate}>4 ottobre</h3>
+                  <div className={styles.eventsList}>
+                    {
+                        data.events.edges.filter(event => event.node.frontmatter.date.indexOf("2020-10-04") !== -1)
+                        .map(event => <div key={event.node.id}  className={styles.eventWrapper}>
+                          <div className={styles.eventName}>{event.node.frontmatter.title}</div>
+                          <div className={styles.eventGalleryName}>Presso<br/>{event.node.frontmatter.gallery}</div>
+                        </div>)
+                    }
+                  </div>
+                </div>
+             </Carousel>
             </div>
           </main>
         </section>

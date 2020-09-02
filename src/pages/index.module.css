@@ -57,6 +57,11 @@
   margin-bottom: 6vh;
 }
 
+.content.fullwidth .head.max {
+  padding-top: 5vh;
+  margin-bottom: 60px;
+}
+
 @media (min-aspect-ratio: 3/3) {
   .head {
     margin-bottom: 9vh;
@@ -147,7 +152,6 @@
   text-align: center;
   font-size: 43px;
   font-family: "Averia Serif Libre", Arial, Helvetica, sans-serif;
-  margin: 30px 0 0;
 }
 
 .eventsList {
@@ -157,6 +161,7 @@
 .eventWrapper {
  border-bottom: 2px solid #000;
  padding: 40px 0 30px;
+ text-align: left;
 }
 
 .eventWrapper:last-of-type {
