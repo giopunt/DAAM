@@ -7,13 +7,19 @@
   max-width: 960px;
   min-width: 320px;
   margin: 0 auto;
-  padding: 5vh 35px 5vh;
+  padding: 0px 35px 5vh;
   font-size: 23px;
   line-height: 1.43;
 }
 
+.content p {
+  padding-top: 5vh;
+  font-size: 20px;
+}
+
 .notice {
-  margin-top: 20px;
+  margin-top: 5vh;
+  font-size: 20px;
 }
 
 .footer a {
@@ -28,6 +34,7 @@
 
 .miaLogo img {
   width: 150px;
-  margin-top: 3vh;
+  margin-top: 5vh;
   filter: grayscale(1) invert(1);
+  display: block;
 }
