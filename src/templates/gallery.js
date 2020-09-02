@@ -46,6 +46,12 @@ class Gallery extends React.Component {
       pressRelease1
     } = node.frontmatter
 
+    const events = this.props.data.events && this.props.data.events.edges.filter(event => event.node.frontmatter.gallery.indexOf(name) !== -1)
+    const day1 = events.filter(event => event.node.frontmatter.date.indexOf("2020-10-01") !== -1)
+    const day2 = events.filter(event => event.node.frontmatter.date.indexOf("2020-10-02") !== -1)
+    const day3 = events.filter(event => event.node.frontmatter.date.indexOf("2020-10-03") !== -1)
+    const day4 = events.filter(event => event.node.frontmatter.date.indexOf("2020-10-04") !== -1)
+
     const slides = [
       slider,
       slider2,
@@ -95,7 +101,33 @@ class Gallery extends React.Component {
                 </Carousel>
               </div>
             }
-  
+
+            {events && <div className={styles.events}>
+              <h3 className={styles.subtitle}>Eventi al DAAM</h3> 
+              {day1.length > 0 && <div>
+                <div className={styles.date}>1 ottobre</div>
+                {day1.map(event => <div className={styles.eventName} key={event.node.id}>{event.node.frontmatter.title}</div>)}
+                {day1.map(event => <div className={styles.eventName} key={event.node.id}>{event.node.frontmatter.title}</div>)}
+              </div>}
+              {day2.length > 0 && <div>
+                <div className={styles.date}>2 ottobre</div>
+                {day2.map(event => <div className={styles.eventName} key={event.node.id}>{event.node.frontmatter.title}</div>)}
+              </div>}
+              {day3.length > 0 && <div>
+                <div className={styles.date}>3 ottobre</div>
+                {day3.map(event => <div className={styles.eventName} key={event.node.id}>{event.node.frontmatter.title}</div>)}
+              </div>}
+              {day4.length > 0 && <div>
+                <div className={styles.date}>4 ottobre</div>
+                {day4.map(event => <div className={styles.eventName} key={event.node.id}>{event.node.frontmatter.title}</div>)}
+              </div>}
+            </div>}
+
+            {pressRelease1 && <div className={styles.allegati}>
+              <h3 className={styles.subtitle}>Allegati</h3>
+                {documents.filter(doc => doc !== null).map(doc => <p key={doc} className={styles.doc}><a target="_blank" rel="noreferrer" href={doc}>{doc.replace('/assets/', '')}</a></p>)}
+            </div>}
+
             {bio && <section className={`${styles.section} ${styles.bio} ${this.state.expandBio ? styles.expand : styles.collapse}`}>
               <button onClick={this.expandBio} className={styles.bioBtn}>
                 Bio 
@@ -105,11 +137,6 @@ class Gallery extends React.Component {
                 <ReactMarkdown source={bio} escapeHtml={true} parserOptions={{ commonmark: true }} />
               </div>
             </section>}
-
-            {pressRelease1 && <div className={styles.allegati}>
-            <h3 className={styles.subtitle}>Allegati</h3>
-            {documents.filter(doc => doc !== null).map(doc => <p key={doc} className={styles.doc}><a href={doc}>{doc.replace('/assets/', '')}</a></p>)}
-          </div>}
           </main>
           
           <section className={styles.section}>
@@ -144,6 +171,24 @@ export const query = graphql`
         slider4
         slider5
         pressRelease1
+      }
+    }
+    events: allMarkdownRemark(
+      filter: { 
+        fileAbsolutePath: { regex: "/(events)/" }
+        frontmatter: { Draft: { eq: false } } 
+      }
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            description
+            gallery
+            date
+          }
+        }
       }
     }
   }

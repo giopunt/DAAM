@@ -134,3 +134,32 @@
 .doc {
   padding: 7px 0;
 }
+
+.events {
+  padding-top: 30px;
+}
+
+.events h3 {
+  font-family: "Averia Serif Libre", Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  font-size: 39px;
+  line-height: 80px;
+}
+
+.date {
+  font-family: "Averia Serif Libre", Arial, Helvetica, sans-serif;
+  font-size: 39px;
+  line-height: 80px;
+  margin-top: 20px;
+}
+
+.eventName {
+  line-height: 29px;
+  font-size: 20px;
+  border-bottom: 2px solid;
+  padding: 20px 0 30px;
+}
+
+.eventName:last-of-type {
+  border-bottom: 3px solid;
+}
