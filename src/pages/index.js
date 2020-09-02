@@ -18,7 +18,7 @@ const Home = () => (
       query {
         desktop: file(relativePath: { eq: "duomo-removebg.png" }) {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 1920) {
+            fluid(quality: 80, maxWidth: 1920) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
