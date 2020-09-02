@@ -70,3 +70,4 @@ collections:
       - { name: description, label: Descrizione, widget: markdown, required: false }
       - { name: gallery, label: Gallery, widget: string }
       - { name: date, label: Date, widget: datetime,  dateFormat: "DD.MM.YYYY", timeFormat: "HH:mm" }
+      - { name: endDate, label: "End Date", widget: datetime,  dateFormat: "DD.MM.YYYY", timeFormat: "HH:mm", required: false }
