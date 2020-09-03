@@ -143,3 +143,8 @@ a {
 .carousel-status, .control-dots {
   display: none;
 }
+
+#gallery-slider .control-disabled,
+#events-list .control-disabled {
+  display: none;
+}
