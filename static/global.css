@@ -60,6 +60,13 @@ a {
 #gallery-slider {
   padding-bottom: 0px;
   margin-top: 30px;
+  width: 80%;
+}
+
+@media (max-width: 700px) {
+  #gallery-slider {
+    width: 100%;
+  }
 }
 
 #events-list {
