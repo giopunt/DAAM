@@ -79,16 +79,6 @@ class Gallery extends React.Component {
             {website && <section className={styles.section}>
               <a href={website} className={styles.websiteLink} target="_blank" rel="noreferrer">{website}</a>
             </section>}
-  
-            {address && <section className={styles.section}>
-              <h3 className={styles.subtitle}>Indirizzo</h3>
-              <ReactMarkdown source={address} escapeHtml={false} parserOptions={{ commonmark: true }} />
-            </section>}
-  
-            {contacts && <section className={styles.section}>
-              <h3 className={styles.subtitle}>Contatti</h3>
-              <ReactMarkdown source={contacts} escapeHtml={false} parserOptions={{ commonmark: true }} />
-            </section>}
 
             {program && <section className={styles.section}>
               <ReactMarkdown className={styles.programma} source={program} escapeHtml={false} parserOptions={{ commonmark: true }} />
@@ -127,6 +117,16 @@ class Gallery extends React.Component {
               <h3 className={styles.subtitle}>Allegati</h3>
                 {documents.filter(doc => doc !== null).map(doc => <p key={doc} className={styles.doc}><a target="_blank" rel="noreferrer" href={doc}>{doc.replace('/assets/', '')}</a></p>)}
             </div>}
+
+            {address && <section className={styles.section}>
+              <h3 className={styles.subtitle}>Indirizzo</h3>
+              <ReactMarkdown source={address} escapeHtml={false} parserOptions={{ commonmark: true }} />
+            </section>}
+  
+            {contacts && <section className={styles.section}>
+              <h3 className={styles.subtitle}>Contatti</h3>
+              <ReactMarkdown source={contacts} escapeHtml={false} parserOptions={{ commonmark: true }} />
+            </section>}
 
             {bio && <section className={`${styles.section} ${styles.bio} ${this.state.expandBio ? styles.expand : styles.collapse}`}>
               <button onClick={this.expandBio} className={styles.bioBtn}>
