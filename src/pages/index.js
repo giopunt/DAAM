@@ -17,7 +17,7 @@ const Home = () => (
   <StaticQuery
     query={graphql`
       query {
-        desktop: file(relativePath: { eq: "duomo-removebg.png" }) {
+        desktop: file(relativePath: { eq: "carciofo.jpg" }) {
           childImageSharp {
             fluid(quality: 80, maxWidth: 1920) {
               ...GatsbyImageSharpFluid_withWebp
@@ -72,7 +72,7 @@ const Home = () => (
           className={`${styles.coverbg} ${styles.section} rellax`}
           style={
             {
-              backgroundImage: `url(${imageData.src}), linear-gradient(#94e4fc, #94e4fc), linear-gradient(90deg, #94e4fc, #94e4fc)`
+              backgroundImage: `url(${imageData.src})`
             }
           }
         >

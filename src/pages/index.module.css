@@ -4,16 +4,16 @@
 }
 
 .coverbg {
-  background-position: right 50px, center 0px, center top;
+  background-position: left top;
   background-size: cover;
   background-repeat: no-repeat;
+  color: #fff;
+  background-color: #4175a7;
 }
 
 @media (min-aspect-ratio: 3/3) {
   .coverbg {
-    background-color: #7fddf9;
-    background-position: left bottom, center bottom, left top;
-    background-size: contain;
+    background-position: center top;
   }
 }
 
@@ -66,6 +66,10 @@
   .head {
     margin-bottom: 9vh;
   }
+}
+
+.logo {
+  filter: invert(1);
 }
 
 .logoSub {
