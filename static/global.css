@@ -58,10 +58,8 @@ a {
 }
 
 #gallery-slider {
-  width: 100%;
   padding-bottom: 0px;
   margin-top: 30px;
-  max-height: 600px;
 }
 
 #events-list {
