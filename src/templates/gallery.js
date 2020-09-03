@@ -102,7 +102,7 @@ class Gallery extends React.Component {
               </div>
             }
 
-            {events && <div className={styles.events}>
+            {events.length > 0 && <div className={styles.events}>
               <h3 className={styles.subtitle}>Eventi al DAAM</h3> 
               {day1.length > 0 && <div>
                 <div className={styles.date}>1 ottobre</div>
