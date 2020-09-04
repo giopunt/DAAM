@@ -1,6 +1,6 @@
 ---
 Draft: false
-title: Architetture e Nature
+title: Architetture e Nature — INAUGURAZIONE
 description: Pier Paolo Fassetta, Fausto Meli, Antonella Sacconi, Gianna
   Spirito, Elisabetta Stoppani. Mostra di fotografia a cura di Giovanna Lalatta
 gallery: SPAZIOFARINI6
