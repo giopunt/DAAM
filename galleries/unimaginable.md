@@ -28,8 +28,8 @@ pressRelease3: ""
 pressRelease4: ""
 pressRelease5: ""
 path: /unimaginable
-latitude: "45.46637"
-longitude: "9.150676"
+latitude: "45.4663700"
+longitude: "9.1528700"
 slider: /assets/io-io-getulio-alviani-1993.jpg
 slider2: /assets/io-io-eugenio-carmi-1993.jpg
 slider3: /assets/io-io-emilio-tadini-1993.jpg
