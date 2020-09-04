@@ -12,7 +12,11 @@ contacts: |-
   info@isorropiahomegallery.com
 
   [Info Mail](mailto:info@tallulahstudioart.com)
-program: TALLULAH STUDIO ART in collaborazione con ISORROPIA HOMEGALLERY
+program: >-
+  TALLULAH STUDIO ART in collaborazione con ISORROPIA HOMEGALLERY presenta il
+  progetto fotografico
+
+  di Patrizia Madau a cura di Rossella Farinotti: PLAYTILES - THE ISTANT. Fotografie di Donata Clovis, Donatella Izzo e Federica Angelino
 bio: >-
   ITA:
 
@@ -34,6 +38,10 @@ bio: >-
   Tallulah Studio Art loves to whet the appetite of collectors by offering works of undisputed creativity and artistic value and it is also committed to facilitating the first steps of new buyers in the world of art.
 
   Of relevance, among the gallery's recent works, the exhibition on the theme "Change - The Imaginative cells" in support of the LGBT community in collaboration with Arcus Pride Art Milan - for Clifford Chance. Tallulah Studio collaborates with young artists present in the recent international panorama such as Donatella Izzo, Federico Unia, Donata Clovis, Federica Angelino, Patrick Corrado ,, Riccardo Bonfadini, Floris Andrea, Ian Gamache, Fabio Roncato, Andrea Milano, Maria Giovanna Morelli, Donata Clovis, Daria Dziecielewska Mc Douglas, Jono Nussbaum, Jordi Suñé Ferrús, Furio Agiman, Claudio Magrassi, Michele Ardito, Mauro Vettore, Giampiero Gasparini.
+pressRelease1: /assets/cs_playtiles_mia_daam_tallulah.pdf
+pressRelease2: ""
+pressRelease3: /assets/progetto-curatoriale-playtiles-the-istant-copia.pdf
+pressRelease4: /assets/renderstandmiaphotoelk-copia.png
 path: /tallulah-studio-art
 latitude: "45.4517060"
 longitude: "9.1917771"
