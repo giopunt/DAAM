@@ -4,8 +4,7 @@ name: Galleria Valeria Bella
 website: http://www.valeriabella.com/home.htm
 logo: /assets/logo-galleriavaleriabella.png
 address: |-
-  Via Santa Cecilia, 2 20122 Milano
-
+  Via Santa Cecilia, 2 20122 Milano\
   Entrata da Via San Damiano
 contacts: |-
   Tel. +39 0276004413
@@ -47,6 +46,7 @@ bio: >-
   Located in the center of Milan, Italy, the gallery has long been a major reference point for collectors and scholars alike.
 
   Valeria Bella Stampe is a member of and the prestigious IFPDA (International Fine Print Dealer Association), is a sustaining member of Camera Centro Italiano per la Fotografia in Torino, and member of CINOA (Confederation Internationale des Negociantes en Oeuvres d’Art.
+pressRelease1: /assets/valeria-bella-daam.pdf
 path: /galleria-valieria-bella
 latitude: "45.467199"
 longitude: "9.1981493"
