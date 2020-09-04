@@ -1,5 +1,5 @@
 ---
-Draft: true
+Draft: false
 title: IO & IO, Bianconero a colori a cura di Carlo Franza. Fotografie di Roger
   Corona — OPENING
 description: "Ritratti a 4 mani con: Getulio Alviani, Gianni Bertini, Eugenio
