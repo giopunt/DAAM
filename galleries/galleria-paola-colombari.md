@@ -2,6 +2,7 @@
 Draft: false
 name: GALLERIA PAOLA COLOMBARI
 website: http://www.artnet.com/galleries/galleria-paola-colombari/
+logo: /assets/banner-colombari-.jpg
 address: |-
   Via Pietro Maroncelli 13
 
