@@ -4,7 +4,7 @@ name: unimaginable
 website: http://www.unimaginable.it/
 logo: /assets/logo-unimaginable.jpg
 address: |-
-  Via Asti 17,
+  Via Privata Asti 17 (Piazza Piemonte),
 
   Milano 20149
 contacts: |-
