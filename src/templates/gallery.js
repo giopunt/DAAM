@@ -69,7 +69,7 @@ class Gallery extends React.Component {
         <Seo title={name + " | DAAM (dovevo andare al MIA)"} />
         <div className={styles.layout}>
           <main className={styles.main}>
-            <Link className={styles.backHomeLink} to="/">
+            <Link className={styles.backHomeLink} to="/#gallerie">
               <img className={styles.arrowIcon} src={arrowIcon} alt="" />
             </Link>
             <h1 className={styles.name}>{name}</h1>

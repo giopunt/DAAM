@@ -27,7 +27,7 @@ const Galleries = () => (
         }
       `}
       render={data => (
-        <div>
+        <div title="gallerie">
           {data.allMarkdownRemark.edges.map(({ node }) => (
             <Link key={node.id} to={node.frontmatter.path} className={styles.link}>
               <div className={styles.box}>
