@@ -35,6 +35,7 @@ bio: >-
   STILL carries out corporate and communication projects for institutions and companies and develops training projects dedicated to the fundamental themes around the world of images and photography.
 
   It also offers workshops, master classes and consultancy related to the world of collecting photography. STILL also produces exhibitions, books and art catalogs.
+pressRelease1: /assets/beatrice-speranza-e-marco-craig_cs.pdf
 path: /still-fotografia
 latitude: "45.4451649"
 longitude: "9.1780915"
