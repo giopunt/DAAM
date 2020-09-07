@@ -9,8 +9,8 @@ contacts: |-
 
   [Info Mail](mailto:info@spaziofarini6.com)
 program: Architetture e Nature mostra fotografica di Pier Paolo Fassetta, Fausto
-  Meli, Antonella Sacconi, Gianna Spirito, Elisabetta Stoppani, a cura di
-  Giovanna Lalatta.
+  Meli, Antonella Sacconi, Gianna Spirito, Beba Stoppani, a cura di Giovanna
+  Lalatta.
 bio: >-
   ITA:\
 
