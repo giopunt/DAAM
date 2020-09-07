@@ -1,9 +1,9 @@
 ---
 Draft: false
-title: Architetture e Nature — apertura al pubblico su appuntamento
+title: Architetture e Nature
 description: Pier Paolo Fassetta, Fausto Meli, Antonella Sacconi, Gianna
   Spirito, Elisabetta Stoppani. Mostra di fotografia a cura di Giovanna Lalatta.
 gallery: SPAZIOFARINI6
-date: 2020-10-03T08:00:00.000Z
-endDate: ""
+date: 2020-10-03T14:30:00.000Z
+endDate: 2020-10-03T19:30:00.000Z
 ---
