@@ -33,6 +33,7 @@ bio: >-
 
   After working from 1993 to 1999 as a freelance photographer for publishing, architecture and art, from 2000 to today she has been involved in curating and exhibiting contemporary photography. After the Photographic Workshop from 2000 to 2007, in 2008 she founded SPAZIOFARINI6, two photography centers in Milan, of which she is the owner, director and curator of contemporary photography exhibitions. For collectors and art lovers, it creates a physical place for both young and experienced collectors who want to enrich their research in the world of art photography.
 pressRelease1: /assets/cs-daam-__architetture-e-nature.pdf
+pressRelease2: /assets/eventi-daam-a-spaziofarini6.pdf
 path: spazio-farini-6
 latitude: "45.4832753"
 longitude: "9.17955"
