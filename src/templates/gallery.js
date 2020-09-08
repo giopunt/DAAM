@@ -99,7 +99,7 @@ class Gallery extends React.Component {
               {day1.length > 0 && <div>
                 <div className={styles.date}>1 ottobre</div>
                 {day1.map(event => <div className={styles.eventName} key={event.node.id}>
-                  <div>{event.node.frontmatter.title}</div>
+                  <div><Link to={`/${event.node.id}`}>{event.node.frontmatter.title}</Link></div>
                   <p className={styles.eventTime}>
                     Dalle {getEventTime(event.node.frontmatter.date)}
                     {
@@ -111,7 +111,7 @@ class Gallery extends React.Component {
               {day2.length > 0 && <div>
                 <div className={styles.date}>2 ottobre</div>
                 {day2.map(event => <div className={styles.eventName} key={event.node.id}>
-                  <div>{event.node.frontmatter.title}</div>
+                  <div><Link to={`/${event.node.id}`}>{event.node.frontmatter.title}</Link></div>
                   <p className={styles.eventTime}>
                     Dalle {getEventTime(event.node.frontmatter.date)}
                     {
@@ -123,7 +123,7 @@ class Gallery extends React.Component {
               {day3.length > 0 && <div>
                 <div className={styles.date}>3 ottobre</div>
                 {day3.map(event => <div className={styles.eventName} key={event.node.id}>
-                  <div>{event.node.frontmatter.title}</div>
+                  <div><Link to={`/${event.node.id}`}>{event.node.frontmatter.title}</Link></div>
                   <p className={styles.eventTime}>
                     Dalle {getEventTime(event.node.frontmatter.date)}
                     {
@@ -135,7 +135,7 @@ class Gallery extends React.Component {
               {day4.length > 0 && <div>
                 <div className={styles.date}>4 ottobre</div>
                 {day4.map(event => <div className={styles.eventName} key={event.node.id}>
-                  <div>{event.node.frontmatter.title}</div>
+                  <div><Link to={`/${event.node.id}`}>{event.node.frontmatter.title}</Link></div>
                   <p className={styles.eventTime}>
                     Dalle {getEventTime(event.node.frontmatter.date)}
                     {

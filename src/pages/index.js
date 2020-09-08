@@ -117,7 +117,7 @@ const Home = () => (
               </div>
             </div>
 
-            <div id="events-list">
+            <div id="events-list" title="events">
              <Carousel dynamicHeight={true} showThumbs={false}>
                 <div key="date1">
                   <h3 className={styles.eventsDate}>1 ottobre</h3>
@@ -131,7 +131,7 @@ const Home = () => (
                           });
 
                           return  (<div key={event.node.id}  className={styles.eventWrapper}>
-                            <div className={styles.eventName}>{event.node.frontmatter.title}</div>
+                            <div className={styles.eventName}><a href={event.node.id}>{event.node.frontmatter.title}</a></div>
                             <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.location}</a></div>
                             <br/>
                             <br/>
