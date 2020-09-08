@@ -13,6 +13,7 @@ description: >-
 
   ore 18 / su invito (per info inviare mail fineart@admiraphotography.it)
 gallery: ADMIRA
+location: ADMIRA
 date: 2020-10-03T16:00:00.000Z
 endDate: ""
 ---

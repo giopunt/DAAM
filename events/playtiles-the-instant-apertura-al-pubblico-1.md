@@ -6,6 +6,7 @@ description: PLAYTILES - THE INSTANT, TALLULAH STUDIO ART in collaborazione con
   registrazione scrivendo a patriziamadau@tallulahstudioart.com /
   info@isorropiahomegallery.com
 gallery: TALLULAH STUDIO ART
+location: TALLULAH STUDIO ART
 date: 2020-10-03T14:00:00.000Z
 endDate: 2020-10-03T19:00:00.000Z
 ---

@@ -13,6 +13,7 @@ description: In occasione del DAAM (Dovevo andare al MIA), patrocinato da MIA
   documentaristico che caratterizza le loro fotografie, sia in modo intimista
   sia in una prospettiva di analisi della collettività.
 gallery: TALLULAH STUDIO ART
+location: TALLULAH STUDIO ART
 date: 2020-10-01T14:00:00.000Z
 endDate: 2020-10-01T19:00:00.000Z
 ---

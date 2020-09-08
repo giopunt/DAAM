@@ -60,6 +60,7 @@ const Home = () => (
                 title
                 description
                 gallery
+                location
                 date
                 endDate
               }
@@ -131,7 +132,7 @@ const Home = () => (
 
                           return  (<div key={event.node.id}  className={styles.eventWrapper}>
                             <div className={styles.eventName}>{event.node.frontmatter.title}</div>
-                            <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.gallery}</a></div>
+                            <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.location}</a></div>
                             <br/>
                             <br/>
                             Dalle {getEventTime(event.node.frontmatter.date)}
@@ -156,7 +157,7 @@ const Home = () => (
 
                           return  (<div key={event.node.id}  className={styles.eventWrapper}>
                             <div className={styles.eventName}>{event.node.frontmatter.title}</div>
-                            <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.gallery}</a></div>
+                            <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.location}</a></div>
                             <br/>
                             <br/>
                             Dalle {getEventTime(event.node.frontmatter.date)}
@@ -181,7 +182,7 @@ const Home = () => (
 
                           return  (<div key={event.node.id}  className={styles.eventWrapper}>
                             <div className={styles.eventName}>{event.node.frontmatter.title}</div>
-                            <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.gallery}</a></div>
+                            <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.location}</a></div>
                             <br/>
                             <br/>
                             Dalle {getEventTime(event.node.frontmatter.date)}
@@ -206,7 +207,7 @@ const Home = () => (
 
                           return  (<div key={event.node.id}  className={styles.eventWrapper}>
                             <div className={styles.eventName}>{event.node.frontmatter.title}</div>
-                            <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.gallery}</a></div>
+                            <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.location}</a></div>
                             <br/>
                             <br/>
                             Dalle {getEventTime(event.node.frontmatter.date)}

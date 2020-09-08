@@ -7,6 +7,7 @@ description: >-
 
   E:  caterinagmonda@gmail.com  || T: +393519044340
 gallery: ARTNOBLE
+location: ARTNOBLE
 date: 2020-10-01T08:00:00.000Z
 endDate: 2020-09-01T14:30:00.000Z
 ---
