@@ -1,4 +1,5 @@
 import React from "react"
+import moment from 'moment'
 import { graphql, StaticQuery } from 'gatsby'
 import { Carousel } from "react-responsive-carousel"
 
@@ -12,6 +13,8 @@ import styles from "./index.module.css"
 
 import loadable from '@loadable/component'
 const GalleriesMap = loadable(() => import('../components/galleries-map'))
+
+const getEventTime = eventDate => moment(eventDate).format("HH:mm")
 
 const Home = () => (
   <StaticQuery
@@ -57,6 +60,7 @@ const Home = () => (
                 description
                 gallery
                 date
+                endDate
               }
             }
           }
@@ -127,6 +131,12 @@ const Home = () => (
                           return  (<div key={event.node.id}  className={styles.eventWrapper}>
                             <div className={styles.eventName}>{event.node.frontmatter.title}</div>
                             <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.gallery}</a></div>
+                            <br/>
+                            <br/>
+                            Dalle {getEventTime(event.node.frontmatter.date)}
+                            {
+                              event.node.frontmatter.endDate && ` alle ${getEventTime(event.node.frontmatter.endDate)}`
+                            } 
                           </div>)
                         })
                     }
@@ -146,6 +156,12 @@ const Home = () => (
                           return  (<div key={event.node.id}  className={styles.eventWrapper}>
                             <div className={styles.eventName}>{event.node.frontmatter.title}</div>
                             <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.gallery}</a></div>
+                            <br/>
+                            <br/>
+                            Dalle {getEventTime(event.node.frontmatter.date)}
+                            {
+                              event.node.frontmatter.endDate && ` alle ${getEventTime(event.node.frontmatter.endDate)}`
+                            } 
                           </div>)
                         })
                     }
@@ -165,6 +181,12 @@ const Home = () => (
                           return  (<div key={event.node.id}  className={styles.eventWrapper}>
                             <div className={styles.eventName}>{event.node.frontmatter.title}</div>
                             <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.gallery}</a></div>
+                            <br/>
+                            <br/>
+                            Dalle {getEventTime(event.node.frontmatter.date)}
+                            {
+                              event.node.frontmatter.endDate && ` alle ${getEventTime(event.node.frontmatter.endDate)}`
+                            } 
                           </div>)
                         })
                     }
@@ -184,6 +206,12 @@ const Home = () => (
                           return  (<div key={event.node.id}  className={styles.eventWrapper}>
                             <div className={styles.eventName}>{event.node.frontmatter.title}</div>
                             <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.gallery}</a></div>
+                            <br/>
+                            <br/>
+                            Dalle {getEventTime(event.node.frontmatter.date)}
+                            {
+                              event.node.frontmatter.endDate && ` alle ${getEventTime(event.node.frontmatter.endDate)}`
+                            } 
                           </div>)
                         })
                     }
