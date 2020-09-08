@@ -16,7 +16,7 @@ program: >-
   TALLULAH STUDIO ART in collaborazione con ISORROPIA HOMEGALLERY presenta il
   progetto fotografico
 
-  di Patrizia Madau a cura di Rossella Farinotti: PLAYTILES - THE ISTANT. Fotografie di Donata Clovis, Donatella Izzo e Federica Angelino
+  di Patrizia Madau a cura di Rossella Farinotti: PLAYTILES - THE INSTANT. Fotografie di Donata Clovis, Donatella Izzo e Federica Angelino
 bio: >-
   ITA:
 
