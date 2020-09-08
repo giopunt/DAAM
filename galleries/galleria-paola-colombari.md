@@ -19,17 +19,27 @@ contacts: >-
 
   [@galleria_paola_colombari ](https://www.instagram.com/galleria_paola_colombari/)
 program: >-
-  Galleria Paola Colombari presenta:\
+  La Galleria Paola Colombari partecipa alla nuova iniziativa DAAM patrocinata
+  da Milan Image Art Fair (www.miafair.it) e inaugura il 1 Ottobre la mostra
+  “MIA PHOTOGRAPHY 2020” nella bellissima location della Cappella sconsacrata
+  del Centro Sant’Antonio in via Quadrio 24 in Maroncelli District. Il Convento
+  di Sant’Antonio dei Frati Francescani è stato progettato dal noto Architetto
+  Luigi Caccia Dominioni nel 1959/1963.
 
-  Preview Mia Photo Fair 2020
+
+  Galleria Paola Colombari
 
 
-  Artisti:  Uli Weber, Tom Vack, Alessandro Vasapolli, Monica Silva, Andrea de Carvalho, Marilù S.Manzini
+  Mostra | MIA PHOTOGRAPHY 2020 | presso il Centro Sant’Antonio | Via Quadrio 24 - 20154 Milano
 
 
-  Opening 1 Ottobre dalle h.18,00 alle h.21,30
+  Opening 1 ottobre dalle h.18 - 21,30 
 
-  2/3/4 Ottobre dalle h.12 alle h.19 orario continuato
+
+  Esposizione nei giorni 2/4 Ottobre dalle h.12 - 19 
+
+
+  La mostra sarà sotto le regole del Covid
 bio: >-
   ITA:\
 
