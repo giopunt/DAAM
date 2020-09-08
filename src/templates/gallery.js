@@ -97,7 +97,6 @@ class Gallery extends React.Component {
               {day1.length > 0 && <div>
                 <div className={styles.date}>1 ottobre</div>
                 {day1.map(event => <div className={styles.eventName} key={event.node.id}>{event.node.frontmatter.title}</div>)}
-                {day1.map(event => <div className={styles.eventName} key={event.node.id}>{event.node.frontmatter.title}</div>)}
               </div>}
               {day2.length > 0 && <div>
                 <div className={styles.date}>2 ottobre</div>
