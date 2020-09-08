@@ -1,6 +1,6 @@
 import React from "react"
 import moment from 'moment'
-import { graphql, StaticQuery } from 'gatsby'
+import { Link, graphql, StaticQuery } from 'gatsby'
 import { Carousel } from "react-responsive-carousel"
 
 import Seo from "../components/seo"
@@ -131,8 +131,8 @@ const Home = () => (
                           });
 
                           return  (<div key={event.node.id}  className={styles.eventWrapper}>
-                            <div className={styles.eventName}><a href={event.node.id}>{event.node.frontmatter.title}</a></div>
-                            <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.location}</a></div>
+                            <div className={styles.eventName}><Link to={`/${event.node.id}`}>{event.node.frontmatter.title}</Link></div>
+                            <div className={styles.eventGalleryName}>Presso<br/><Link to={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.location}</Link></div>
                             <br/>
                             <br/>
                             Dalle {getEventTime(event.node.frontmatter.date)}
@@ -156,8 +156,8 @@ const Home = () => (
                           });
 
                           return  (<div key={event.node.id}  className={styles.eventWrapper}>
-                            <div className={styles.eventName}>{event.node.frontmatter.title}</div>
-                            <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.location}</a></div>
+                            <div className={styles.eventName}><Link to={`/${event.node.id}`}>{event.node.frontmatter.title}</Link></div>
+                            <div className={styles.eventGalleryName}>Presso<br/><Link to={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.location}</Link></div>
                             <br/>
                             <br/>
                             Dalle {getEventTime(event.node.frontmatter.date)}
@@ -181,8 +181,8 @@ const Home = () => (
                           });
 
                           return  (<div key={event.node.id}  className={styles.eventWrapper}>
-                            <div className={styles.eventName}>{event.node.frontmatter.title}</div>
-                            <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.location}</a></div>
+                            <div className={styles.eventName}><Link to={`/${event.node.id}`}>{event.node.frontmatter.title}</Link></div>
+                            <div className={styles.eventGalleryName}>Presso<br/><Link to={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.location}</Link></div>
                             <br/>
                             <br/>
                             Dalle {getEventTime(event.node.frontmatter.date)}
@@ -206,8 +206,8 @@ const Home = () => (
                           });
 
                           return  (<div key={event.node.id}  className={styles.eventWrapper}>
-                            <div className={styles.eventName}>{event.node.frontmatter.title}</div>
-                            <div className={styles.eventGalleryName}>Presso<br/><a href={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.location}</a></div>
+                            <div className={styles.eventName}><Link to={`/${event.node.id}`}>{event.node.frontmatter.title}</Link></div>
+                            <div className={styles.eventGalleryName}>Presso<br/><Link to={matchingGallery && matchingGallery.node.frontmatter.path}>{event.node.frontmatter.location}</Link></div>
                             <br/>
                             <br/>
                             Dalle {getEventTime(event.node.frontmatter.date)}
