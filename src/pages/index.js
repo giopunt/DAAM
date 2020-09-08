@@ -47,6 +47,7 @@ const Home = () => (
           }
         }
         events: allMarkdownRemark(
+          sort: { order: ASC, fields: [frontmatter___date]},
           filter: { 
             fileAbsolutePath: { regex: "/(events)/" }
             frontmatter: { Draft: { eq: false } } 
