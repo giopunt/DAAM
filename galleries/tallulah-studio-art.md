@@ -2,7 +2,7 @@
 Draft: false
 name: TALLULAH STUDIO ART
 website: https://tallulahstudioart.com/
-logo: /assets/screen-shot-2020-07-23-at-16.09.02.png
+logo: /assets/tallulah_isorropia_400px-hi.jpg
 address: |-
   TALLULAH STUDIO ART in collaborazione con ISORROPIA HOMEGALLERY\
   Viale Beatrice D’Este, 22 - 20122 Milano
