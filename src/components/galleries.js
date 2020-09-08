@@ -9,6 +9,7 @@ const Galleries = () => (
       query={graphql`
         query {
           allMarkdownRemark(
+            sort: { order: ASC, fields: [frontmatter___name]},
             filter: { 
               fileAbsolutePath: { regex: "/(galleries)/" }
               frontmatter: { Draft: { eq: false } } 
