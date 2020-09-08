@@ -6,7 +6,10 @@ logo: /assets/admira-logo.png
 address: |-
   Via Mercadante 3,\
   20124 Milano
-contacts: Tel/Fax +39 02 6694278
+contacts: |-
+  Tel/Fax +39 02 6694278
+
+  [Info mail](<fineart@admiraphotography.it)>)
 program: >-
   ADMIRA per DAAM
 
