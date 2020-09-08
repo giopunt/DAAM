@@ -160,6 +160,11 @@
   padding: 20px 0 30px;
 }
 
+.eventTime {
+  padding-top: 5px;
+  font-size: 16px;
+}
+
 .eventName:last-of-type {
   border-bottom: 3px solid;
 }

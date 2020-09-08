@@ -1,4 +1,5 @@
 import React from "react"
+import moment from 'moment'
 import loadable from '@loadable/component'
 import { Link, graphql } from "gatsby"
 import ReactMarkdown from "react-markdown"
@@ -13,6 +14,7 @@ import arrowIcon from "../images/left-arrow.svg"
 
 
 const GalleryMap = loadable(() => import('../components/gallery-map'))
+const getEventTime = eventDate => moment(eventDate).format("HH:mm")
 
 class Gallery extends React.Component {
   state = {
@@ -96,19 +98,51 @@ class Gallery extends React.Component {
               <h3 className={styles.subtitle}>Eventi al DAAM</h3> 
               {day1.length > 0 && <div>
                 <div className={styles.date}>1 ottobre</div>
-                {day1.map(event => <div className={styles.eventName} key={event.node.id}>{event.node.frontmatter.title}</div>)}
+                {day1.map(event => <div className={styles.eventName} key={event.node.id}>
+                  <div>{event.node.frontmatter.title}</div>
+                  <p className={styles.eventTime}>
+                    Dalle {getEventTime(event.node.frontmatter.date)}
+                    {
+                      event.node.frontmatter.endDate && ` alle ${getEventTime(event.node.frontmatter.endDate)}`
+                    } 
+                  </p>
+                </div>)}
               </div>}
               {day2.length > 0 && <div>
                 <div className={styles.date}>2 ottobre</div>
-                {day2.map(event => <div className={styles.eventName} key={event.node.id}>{event.node.frontmatter.title}</div>)}
+                {day2.map(event => <div className={styles.eventName} key={event.node.id}>
+                  <div>{event.node.frontmatter.title}</div>
+                  <p className={styles.eventTime}>
+                    Dalle {getEventTime(event.node.frontmatter.date)}
+                    {
+                      event.node.frontmatter.endDate && ` alle ${getEventTime(event.node.frontmatter.endDate)}`
+                    } 
+                  </p>
+                </div>)}
               </div>}
               {day3.length > 0 && <div>
                 <div className={styles.date}>3 ottobre</div>
-                {day3.map(event => <div className={styles.eventName} key={event.node.id}>{event.node.frontmatter.title}</div>)}
+                {day3.map(event => <div className={styles.eventName} key={event.node.id}>
+                  <div>{event.node.frontmatter.title}</div>
+                  <p className={styles.eventTime}>
+                    Dalle {getEventTime(event.node.frontmatter.date)}
+                    {
+                      event.node.frontmatter.endDate && ` alle ${getEventTime(event.node.frontmatter.endDate)}`
+                    } 
+                  </p>
+                </div>)}
               </div>}
               {day4.length > 0 && <div>
                 <div className={styles.date}>4 ottobre</div>
-                {day4.map(event => <div className={styles.eventName} key={event.node.id}>{event.node.frontmatter.title}</div>)}
+                {day4.map(event => <div className={styles.eventName} key={event.node.id}>
+                  <div>{event.node.frontmatter.title}</div>
+                  <p className={styles.eventTime}>
+                    Dalle {getEventTime(event.node.frontmatter.date)}
+                    {
+                      event.node.frontmatter.endDate && ` alle ${getEventTime(event.node.frontmatter.endDate)}`
+                    } 
+                  </p>
+                </div>)}
               </div>}
             </div>}
 
@@ -186,6 +220,7 @@ export const query = graphql`
             description
             gallery
             date
+            endDate
           }
         }
       }
