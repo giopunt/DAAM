@@ -75,8 +75,8 @@ bio: >-
 
   In 2000 Paola Colombari opened the gallery’s Contemporary Art sector dealing with both Italian and international artists, with a particular attention today to the work of the artists David Yarrow (UK), Alessandro Vasapolli (ITA), Uli Weber (DE), Tom Vack (USA), Andrea De Carvalho (BR), Monica Silva (BR), Steve Thornton (USA), Marilù Manzini (ITA) , Carla Chiusano (ITA) and collaborated with the artists Maïmouna Guerresi, Rachana Nagarkar, Blue and Joy and Marisa Laurito. The Gallery participates in some of the most important international Art Fairs such as: PAD London (GB), Design Days Dubai (Emirates), Mia Photo fair (Milan), MiArt Fair (Milan), Arte Fiera Bologna, Wopart Fair (Lugano), Fotofever (Paris), Roma Nuvola in Arte (Rome).
 path: /galleria-paola-colombari
-latitude: "45.46356"
-longitude: "9.19419"
+latitude: "45.4840536"
+longitude: "9.1820428"
 slider: /assets/alessandro-vasapolli-on-form-ii-progetto-“dance-notes”.jpg
 slider2: /assets/marilù-s.manzini-the-kiss-jail-lambda-print-on-aluminum-d-bond-3mm.-sizes-140-x-120-cm.-limited-edition-n.-6-2-ap-year-2019.jpg
 slider3: /assets/monica-silva-tilda-swinton-fine-art-baryta-paper-prestige-340-canson-infinity-paper-with-aluminum-d-bond-support-and-acrylic-panel-5mm-plexiglass-sizes-120-x-106-cm-limited-edition-n.6-2-ap-year-2015.jpg
