@@ -1,5 +1,5 @@
 ---
-Draft: true
+Draft: false
 title: "M'innamoravo di tutto. "
 description: >-
   Il titolo è tratto da un album di Fabrizio De Andrè del 1997, che raccoglie
