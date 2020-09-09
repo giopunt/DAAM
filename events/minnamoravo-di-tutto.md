@@ -1,6 +1,6 @@
 ---
 Draft: false
-title: "M'innamoravo di tutto. "
+title: M'innamoravo di tutto.  APERTURA AL PUBBLICO
 description: >-
   Il titolo è tratto da un album di Fabrizio De Andrè del 1997, che raccoglie
   successi rivisitati. Lo stesso approccio della “compilation” caratterizza la
