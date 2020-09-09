@@ -38,8 +38,8 @@ bio: >-
 pressRelease1: /assets/cs-daam-__architetture-e-nature.pdf
 pressRelease2: /assets/eventi-daam-a-spaziofarini6.pdf
 path: spazio-farini-6
-latitude: "45.4832753"
-longitude: "9.17955"
+latitude: "45.4832228"
+longitude: "9.1818641"
 slider: /assets/antonella-sacconi_-capricci-alla-piranesi-cm-40x60-in-50x70-su-dbond-fine-art-ink-jet-print-on-baryta-paper.jpg
 slider2: /assets/beba-stoppani_pietas-8_2019_cm90x120_fine-art.jpg
 slider3: /assets/fausto-meli_il-tempo-si-deve-fermare_01_30-x45cm-45x60cm-_ed.-8-2-ap_giclée-print.jpg
