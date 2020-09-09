@@ -19,12 +19,21 @@ contacts: >-
 
   [@galleria_paola_colombari ](https://www.instagram.com/galleria_paola_colombari/)
 program: >-
-  La Galleria Paola Colombari partecipa alla nuova iniziativa DAAM patrocinata
-  da Milan Image Art Fair (www.miafair.it) e inaugura il 1 Ottobre la mostra
-  “MIA PHOTOGRAPHY 2020” nella bellissima location della Cappella sconsacrata
-  del Centro Sant’Antonio in via Quadrio 24 in Maroncelli District. Il Convento
-  di Sant’Antonio dei Frati Francescani è stato progettato dal noto Architetto
-  Luigi Caccia Dominioni nel 1959/1963.
+  Mentre aspettiamo la nuova edizione di MIA PHOTO Fair 2021 la Galleria Paola
+  Colombari partecipa alla nuova iniziativa DAAM patrocinata da Milan Image Art
+  Fair (www.miafair.it) e inaugura il 1 Ottobre la mostra “MIA PHOTOGRAPHY 2020”
+  nella bellissima lo- cation della Cappella sconsacrata del Centro Sant’Antonio
+  in via Quadrio 24 in Maroncelli District. Il Convento di Sant’Antonio dei
+  Frati Francescani è stato progettato dal noto Architetto Luigi Caccia
+  Dominioni nel 1959/1963. La mostra sarà visibile in anteprima sul portale
+  www.daam.it un hub per promuovere la fotogra a d’autore e che presenta i
+  programmi delle gallerie dal 1/4 Ottobre con quattro giorni di aperture
+  straordinarie, eventi in totale sicurezza e possibilità di tornare ad
+  avvicinarsi al mondo del collezionismo foto- gra co. La Gallerista Paola
+  Colombari trend-setter dal 1981 nell’Art Design e Arte Contemporanea
+  d’avanguardia presenta le opere dei fo- togra  Uli Weber, Tom Vack, Monica
+  Silva, Andrea de Carvalho, Marilù S.Manzini e una selezione di opere tessili
+  delle designer Adriana Fortunato e Caterina Fumagalli.
 
 
   Galleria Paola Colombari
@@ -36,7 +45,7 @@ program: >-
   Opening 1 ottobre dalle h.18 - 21,30 
 
 
-  Esposizione nei giorni 2/4 Ottobre dalle h.12 - 19 
+  Esposizione nei giorni 2/3/4 Ottobre dalle h.12 - 19 
 
 
   La mostra sarà sotto le regole del Covid
