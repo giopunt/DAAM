@@ -40,6 +40,7 @@ bio: >-
   ENG\
 
   Leica Galerie in Milan, that is located in the amazing Piazza del Duomo, is the ideal place to live the photography passion. Different exhibitions of important photographers of the past and present days are organized inside the gallery each month or every two months. There is also the possibility to participate to lessons, debates and meetings with the most relevant experts of the sector. Moreover, the bookshop will offer you an amazing selection of the most beautiful books of italian and international photographers about their photographic experience.
+pressRelease1: /assets/cs_leica-galerie-milano.pdf
 path: /leica-gallery-milano
 latitude: "45.4651036"
 longitude: "9.1862123"
