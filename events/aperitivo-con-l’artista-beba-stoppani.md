@@ -8,5 +8,5 @@ description: Ogni sera dalle 18.30 alle 20.30 si potrà partecipare, su invito 
 gallery: SPAZIOFARINI6
 location: SPAZIOFARINI6
 date: 2020-10-02T16:30:00.000Z
-endDate: 2020-10-02T16:30:00.000Z
+endDate: 2020-10-02T18:30:00.000Z
 ---
