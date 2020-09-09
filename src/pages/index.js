@@ -118,7 +118,7 @@ const Home = () => (
             </div>
 
             <div id="events-list" title="events">
-             <Carousel dynamicHeight={true} showThumbs={false}>
+             <Carousel dynamicHeight={true} showThumbs={false} swipeable={false}>
                 <div key="date1">
                   <h3 className={styles.eventsDate}>1 ottobre</h3>
                   <div className={styles.eventsList}>
