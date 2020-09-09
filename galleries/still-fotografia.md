@@ -39,8 +39,8 @@ pressRelease1: /assets/beatrice-speranza-e-marco-craig_cs.pdf
 path: /still-fotografia
 latitude: "45.4451649"
 longitude: "9.1780915"
-slider: /assets/larrybird.jpg
-slider2: /assets/reinhold-messner-everest.jpg
+slider: /assets/harlem-globe-trotters.jpg
+slider2: /assets/albertotomba.jpg
 slider3: /assets/img_8855.jpg
 slider4: /assets/img_8064.jpg
 ---
