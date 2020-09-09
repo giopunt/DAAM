@@ -1,6 +1,6 @@
 ---
 Draft: false
-name: Leica Gallery Milano
+name: Leica Galerie Milano
 website: http://www.leicastore-milano.com/
 logo: /assets/logo_leica-galerie-milano.jpeg
 address: |-
