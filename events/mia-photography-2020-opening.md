@@ -1,5 +1,5 @@
 ---
-Draft: true
+Draft: false
 title: MIA PHOTOGRAPHY 2020 - Opening
 description: La Gallerista Paola Colombari trend-setter dal 1981 nell’Art Design
   e Arte Contemporanea d’avanguardia presenta le opere dei fo- togra  Uli Weber,
