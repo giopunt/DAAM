@@ -8,9 +8,12 @@ contacts: |-
   Tel. 02 6208 6626
 
   [Info Mail](mailto:info@spaziofarini6.com)
-program: Architetture e Nature mostra fotografica di Pier Paolo Fassetta, Fausto
-  Meli, Antonella Sacconi, Gianna Spirito, Beba Stoppani, a cura di Giovanna
-  Lalatta.
+program: >-
+  Architetture e Nature mostra fotografica di Pier Paolo Fassetta, Fausto Meli,
+  Antonella Sacconi, Gianna Spirito, Beba Stoppani, a cura di Giovanna Lalatta. 
+
+
+  Una selezione di fotografie, in bianco e nero e a colori, che ci fa viaggiare tra architetture e paesaggi in mondi reali e surreali, tutti fantastici.  Esposti in anteprima assoluta i collage fotografici, pezzi unici, di Pier Paolo Fassetta da cui è stato ispirato il titolo della mostra: resti di architetture senza storia, costruite con immagini fotografiche ricomposte in modo da rappresentare la vitalità della natura plasmata dal lavoro dell’uomo, per abitanti di luoghi misteriosi.In mostra anche le ‘nude forme’, le lineari architetture contemporanee in bianco e nero di Antonella Sacconi dal progetto “Homo Faber” e gli interni e i notturni poetici, delicati e sognanti di Fausto Meli, oltre ai “Diari di Viaggio” di Gianna Spirito, paesaggi della Cina contemporanea interpretati con uno sguardo molto particolare. Infine le fortissime immagini, strazianti e bellissime del work in progress dal 2015 di Beba Stoppani sul ghiacciaio del Rodano “0° a 5000mt”, un richiamo al rispetto e all’amore per la Natura che pur colpita nella sua integrità ancora ci regala bellezze e risorse. “*Questo studio vuole essere un richiamo soprattutto per i giovani a una responsabilità più forte verso il nostro pianeta e verso una ecologia integrale dove Uomo e Pianeta, sullo stesso piano, siano rispettati e vissuti come un Unico Organismo Vivente*”.
 bio: >-
   ITA:\
 
@@ -35,8 +38,8 @@ bio: >-
 pressRelease1: /assets/cs-daam-__architetture-e-nature.pdf
 pressRelease2: /assets/eventi-daam-a-spaziofarini6.pdf
 path: spazio-farini-6
-latitude: "45.4832753"
-longitude: "9.17955"
+latitude: "45.4832228"
+longitude: "9.1818641"
 slider: /assets/antonella-sacconi_-capricci-alla-piranesi-cm-40x60-in-50x70-su-dbond-fine-art-ink-jet-print-on-baryta-paper.jpg
 slider2: /assets/beba-stoppani_pietas-8_2019_cm90x120_fine-art.jpg
 slider3: /assets/fausto-meli_il-tempo-si-deve-fermare_01_30-x45cm-45x60cm-_ed.-8-2-ap_giclée-print.jpg

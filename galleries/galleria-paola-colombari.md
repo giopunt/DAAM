@@ -19,12 +19,21 @@ contacts: >-
 
   [@galleria_paola_colombari ](https://www.instagram.com/galleria_paola_colombari/)
 program: >-
-  La Galleria Paola Colombari partecipa alla nuova iniziativa DAAM patrocinata
-  da Milan Image Art Fair (www.miafair.it) e inaugura il 1 Ottobre la mostra
-  “MIA PHOTOGRAPHY 2020” nella bellissima location della Cappella sconsacrata
-  del Centro Sant’Antonio in via Quadrio 24 in Maroncelli District. Il Convento
-  di Sant’Antonio dei Frati Francescani è stato progettato dal noto Architetto
-  Luigi Caccia Dominioni nel 1959/1963.
+  Mentre aspettiamo la nuova edizione di MIA PHOTO Fair 2021 la Galleria Paola
+  Colombari partecipa alla nuova iniziativa DAAM patrocinata da Milan Image Art
+  Fair (www.miafair.it) e inaugura il 1 Ottobre la mostra “MIA PHOTOGRAPHY 2020”
+  nella bellissima lo- cation della Cappella sconsacrata del Centro Sant’Antonio
+  in via Quadrio 24 in Maroncelli District. Il Convento di Sant’Antonio dei
+  Frati Francescani è stato progettato dal noto Architetto Luigi Caccia
+  Dominioni nel 1959/1963. La mostra sarà visibile in anteprima sul portale
+  www.daam.it un hub per promuovere la fotogra a d’autore e che presenta i
+  programmi delle gallerie dal 1/4 Ottobre con quattro giorni di aperture
+  straordinarie, eventi in totale sicurezza e possibilità di tornare ad
+  avvicinarsi al mondo del collezionismo foto- gra co. La Gallerista Paola
+  Colombari trend-setter dal 1981 nell’Art Design e Arte Contemporanea
+  d’avanguardia presenta le opere dei fo- togra  Uli Weber, Tom Vack, Monica
+  Silva, Andrea de Carvalho, Marilù S.Manzini e una selezione di opere tessili
+  delle designer Adriana Fortunato e Caterina Fumagalli.
 
 
   Galleria Paola Colombari
@@ -36,7 +45,7 @@ program: >-
   Opening 1 ottobre dalle h.18 - 21,30 
 
 
-  Esposizione nei giorni 2/4 Ottobre dalle h.12 - 19 
+  Esposizione nei giorni 2/3/4 Ottobre dalle h.12 - 19 
 
 
   La mostra sarà sotto le regole del Covid
@@ -66,8 +75,8 @@ bio: >-
 
   In 2000 Paola Colombari opened the gallery’s Contemporary Art sector dealing with both Italian and international artists, with a particular attention today to the work of the artists David Yarrow (UK), Alessandro Vasapolli (ITA), Uli Weber (DE), Tom Vack (USA), Andrea De Carvalho (BR), Monica Silva (BR), Steve Thornton (USA), Marilù Manzini (ITA) , Carla Chiusano (ITA) and collaborated with the artists Maïmouna Guerresi, Rachana Nagarkar, Blue and Joy and Marisa Laurito. The Gallery participates in some of the most important international Art Fairs such as: PAD London (GB), Design Days Dubai (Emirates), Mia Photo fair (Milan), MiArt Fair (Milan), Arte Fiera Bologna, Wopart Fair (Lugano), Fotofever (Paris), Roma Nuvola in Arte (Rome).
 path: /galleria-paola-colombari
-latitude: "45.46356"
-longitude: "9.19419"
+latitude: "45.4840536"
+longitude: "9.1820428"
 slider: /assets/alessandro-vasapolli-on-form-ii-progetto-“dance-notes”.jpg
 slider2: /assets/marilù-s.manzini-the-kiss-jail-lambda-print-on-aluminum-d-bond-3mm.-sizes-140-x-120-cm.-limited-edition-n.-6-2-ap-year-2019.jpg
 slider3: /assets/monica-silva-tilda-swinton-fine-art-baryta-paper-prestige-340-canson-infinity-paper-with-aluminum-d-bond-support-and-acrylic-panel-5mm-plexiglass-sizes-120-x-106-cm-limited-edition-n.6-2-ap-year-2015.jpg
