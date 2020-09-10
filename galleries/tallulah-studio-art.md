@@ -8,7 +8,7 @@ address: |-
   Viale Beatrice D’Este, 22 - 20122 Milano
 contacts: |-
   Tel. +39 335 592 9562\
-  patriziamadau@tallulahstudioart.com\
+  info@tallulahstudioart.com\
   info@isorropiahomegallery.com
 
   [Info Mail](mailto:info@tallulahstudioart.com)
