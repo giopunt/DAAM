@@ -2,11 +2,30 @@
 Draft: false
 name: Antonia Jannone
 website: https://www.antoniajannone.it/
+logo: /assets/logo-aj.jpg
 address: C.so Giuseppe Garibaldi, 125
 contacts: |-
   Tel. +39 02 29002930
 
   [Info Mail](mailto:info@antoniajannone.it)
+program: >-
+  In occasione di DAAM (Dovevamo andare al MIA), Antonia Jannone Disegni di
+  Architettura espone la serie “Finestre” di Vera Rossi e “Relazioni” di Marco
+  Palmieri.
+
+
+
+  «Ci troviamo di fronte a una soglia: noi siamo sempre all’interno. Oltre sono sagome che non sempre siamo in grado di leggere. I vetri sono quelli che si utilizzavano cent’anni fa: in alcuni punti più densi, pastosi, in altri più nitidi. È un gioco di trasparenze, di presenze reali, contrapposte alle assenze presunte. La gamma dei colori è, quasi sempre, fredda. Il calore viene dall’ambiente proposto. Sono immagini della memoria, quella personale di Vera Rossi». Angela Madesani.
+
+
+
+  «Senz’ombra di dubbio le immagini di Marco Palmieri sono di luce ed ombra, quindi assenze e presenze, per cui peso e leggerezza e dunque pieno e vuoto, oriente e occidente, anche grande e piccolo, e pure anima e corpo». Giacinto Di Pietrantonio.
+
+
+
+  Conversazioni con l’artista:
+
+  Marco Palmieri giovedì primo ottobre alle ore 19 e sabato 3 ottobre alle 12 Vera Rossi venerdì 2 ottobre alle 19 e domenica 4 alle 12
 bio: >-
   ITA:
 
@@ -43,7 +62,17 @@ bio: >-
 
 
   Her most recent shows have been dedicated to Mario Botta, Andrea Branzi, Alessandro Busci, Aldo Cibic, Michele De Lucchi, Vittorio Gregotti, Steven Holl, Ugo La Pietra, Alessandro Mendini, Marco Palmieri, Gaetano Pesce, Franco Raggi, Umberto Riva, Alvaro Siza, Ettore Sottsass, Sergei Tchoban, Velasco Vitali and Marco Zanuso Jr.
+pressRelease1: ""
+pressRelease2: ""
+pressRelease3: ""
+pressRelease4: ""
+pressRelease5: ""
 path: /antonia-jannone
 latitude: "45.4798609"
 longitude: "9.186252"
+slider: /assets/marco-palmieri-adorazione-2019-stampa-a-getto-di-inchiostro-su-carta-cotone-45x48-cm-ed.-di-5_high-res.jpg
+slider2: /assets/marco-palmieri-relazioni-2019-stampa-a-getto-di-inchiostro-su-carta-cotone-45x48-cm-la-singola-opera-ed.-di-5_high-res.jpg
+slider3: /assets/vera-rossi-a-rainy-day-2019-cm-80x100.jpg
+slider4: /assets/vera-rossi-pioggia-d-estate-2019-cm-90x59.jpg
+slider5: /assets/vera-rossi-shining-2019-cm-62x60.jpg
 ---
