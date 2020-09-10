@@ -5,7 +5,7 @@ description: PLAYTILES - THE INSTANT, TALLULAH STUDIO ART in collaborazione con
   ISORROPIA HOMEGALLERY apre al pubblico dalle ore 16 alle 20 previa
   registrazione scrivendo a info@isorropiahomegallery.com
 gallery: TALLULAH STUDIO ART
-location: TALLULAH STUDIO ART
+location: ISORROPIA HOMEGALLERY
 date: 2020-10-02T14:00:00.000Z
 endDate: 2020-09-02T19:00:00.000Z
 ---
