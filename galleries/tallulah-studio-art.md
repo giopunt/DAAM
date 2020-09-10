@@ -10,8 +10,6 @@ contacts: |-
   Tel. +39 335 592 9562\
   info@tallulahstudioart.com\
   info@isorropiahomegallery.com
-
-  [Info Mail](mailto:info@tallulahstudioart.com)
 program: >-
   TALLULAH STUDIO ART in collaborazione con ISORROPIA HOMEGALLERY presenta il
   progetto fotografico
