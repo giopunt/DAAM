@@ -8,8 +8,9 @@ address: |-
   Viale Beatrice D’Este, 22 - 20122 Milano
 contacts: |-
   Tel. +39 335 592 9562\
-  info@tallulahstudioart.com\
-  info@isorropiahomegallery.com
+  Ingresso su invito con registrazione 
+  Info@tallulahstudioart.com
+  Info@isorropiahomegallery.com
 program: >-
   TALLULAH STUDIO ART in collaborazione con ISORROPIA HOMEGALLERY presenta il
   progetto fotografico
