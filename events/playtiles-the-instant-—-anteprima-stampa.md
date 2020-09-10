@@ -21,7 +21,7 @@ description: >-
 
   Info@isorropiahomegallery.com
 gallery: TALLULAH STUDIO ART
-location: ISORROPIA HOMEGALLERT
+location: ISORROPIA HOMEGALLERY
 date: 2020-10-01T08:30:00.000Z
 endDate: 2020-10-01T12:30:00.000Z
 ---
