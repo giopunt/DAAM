@@ -3,7 +3,7 @@ Draft: false
 name: GALLERIA PAOLA COLOMBARI
 website: http://www.artnet.com/galleries/galleria-paola-colombari/
 logo: /assets/banner-colombari-.jpg
-address: Centro Sant’Antonio | Via Quadrio 24 - 20154 Milano
+address: Convento di Sant’Antonio, via Quadrio 24 / 20154 Milano
 contacts: >-
   Tel. +39 02 29091252 
 
@@ -39,7 +39,7 @@ program: >-
   Galleria Paola Colombari
 
 
-  Mostra | MIA PHOTOGRAPHY 2020 | presso il Centro Sant’Antonio | Via Quadrio 24 - 20154 Milano
+  Mostra | MIA PHOTOGRAPHY 2020 | presso il Convento di Sant’Antonio | Via Quadrio 24 - 20154 Milano
 
 
   Opening 1 ottobre dalle h.18 - 21,30 
@@ -77,7 +77,7 @@ bio: >-
 path: /galleria-paola-colombari
 latitude: "45.4840536"
 longitude: "9.1820428"
-slider: /assets/alessandro-vasapolli-on-form-ii-progetto-“dance-notes”.jpg
+slider: /assets/collezione-noloom-caterina-lunghi-e-adriana-fortunato.jpg
 slider2: /assets/marilù-s.manzini-the-kiss-jail-lambda-print-on-aluminum-d-bond-3mm.-sizes-140-x-120-cm.-limited-edition-n.-6-2-ap-year-2019.jpg
 slider3: /assets/monica-silva-tilda-swinton-fine-art-baryta-paper-prestige-340-canson-infinity-paper-with-aluminum-d-bond-support-and-acrylic-panel-5mm-plexiglass-sizes-120-x-106-cm-limited-edition-n.6-2-ap-year-2015.jpg
 slider4: /assets/024_uli_weber_the_allure_of_horses.jpg
