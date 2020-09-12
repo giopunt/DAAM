@@ -1,6 +1,6 @@
 ---
 Draft: false
-title: MIA PHOTOGRAPHY 2020 - Opening
+title: MIA PHOTOGRAPHY 2020 Galleria Paola Colombari - Opening
 description: La Gallerista Paola Colombari trend-setter dal 1981 nell’Art Design
   e Arte Contemporanea d’avanguardia presenta le opere dei fo- togra  Uli Weber,
   Tom Vack, Monica Silva, Andrea de Carvalho, Marilù S.Manzini e una selezione
