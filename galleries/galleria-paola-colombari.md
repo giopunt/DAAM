@@ -74,11 +74,12 @@ bio: >-
   exhibition “HORM: Bellini-Holl Design Exchange”, with design pieces by internationallyreknown architects Steven Holl and Mario Bellini. In the 2011 Paola Colombari showed “Steel Effect”, in the 2012 the exhibition “The Religious Contemporary Design”, in the 2013 the show “WABI SABI Italian Slow Design” with the curator Silvia Ariemma , in the 2014 the exhibition “Art Design for Freedom”, in the 2015 curated with Neia Paz the exhibition “Brasil Art Design” and for the Furniture Fair 2015 the Solo Show of the TV Star Marisa Laurito, in the 2016 the exhibition of the designer Antonio Cagianelli “Cosmic Vanity” and the Solo Show of Marisa Laurito “Radici Squadrate” (Square Roots) for the Galleria Narciso in Turin.
 
   In 2000 Paola Colombari opened the gallery’s Contemporary Art sector dealing with both Italian and international artists, with a particular attention today to the work of the artists David Yarrow (UK), Alessandro Vasapolli (ITA), Uli Weber (DE), Tom Vack (USA), Andrea De Carvalho (BR), Monica Silva (BR), Steve Thornton (USA), Marilù Manzini (ITA) , Carla Chiusano (ITA) and collaborated with the artists Maïmouna Guerresi, Rachana Nagarkar, Blue and Joy and Marisa Laurito. The Gallery participates in some of the most important international Art Fairs such as: PAD London (GB), Design Days Dubai (Emirates), Mia Photo fair (Milan), MiArt Fair (Milan), Arte Fiera Bologna, Wopart Fair (Lugano), Fotofever (Paris), Roma Nuvola in Arte (Rome).
+pressRelease1: /assets/mia-photography-2020.pdf
 path: /galleria-paola-colombari
 latitude: "45.4840536"
 longitude: "9.1820428"
 slider: /assets/collezione-noloom-caterina-lunghi-e-adriana-fortunato.jpg
-slider2: /assets/marilù-s.manzini-the-kiss-jail-lambda-print-on-aluminum-d-bond-3mm.-sizes-140-x-120-cm.-limited-edition-n.-6-2-ap-year-2019.jpg
+slider2: /assets/marilù-s.manzini_quarantina-_lambda-paper-on-aluminum_1.20-x-1.40-cm_year-2020.jpeg
 slider3: /assets/monica-silva-tilda-swinton-fine-art-baryta-paper-prestige-340-canson-infinity-paper-with-aluminum-d-bond-support-and-acrylic-panel-5mm-plexiglass-sizes-120-x-106-cm-limited-edition-n.6-2-ap-year-2015.jpg
 slider4: /assets/024_uli_weber_the_allure_of_horses.jpg
 slider5: /assets/faded-glory-tom-vack-printed-baryta-paper.-assembly-on-artframe-satin-aluminum-frame-th.-4-cm-anti-reflective-glass-medium-size-130-x-97-cm-limited-edition-n.6-2ap-large-size-175-x-130-cm-limited-edition-n.6-2ap-year-2019.jpeg
