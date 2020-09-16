@@ -62,7 +62,7 @@ bio: >-
 
 
   Her most recent shows have been dedicated to Mario Botta, Andrea Branzi, Alessandro Busci, Aldo Cibic, Michele De Lucchi, Vittorio Gregotti, Steven Holl, Ugo La Pietra, Alessandro Mendini, Marco Palmieri, Gaetano Pesce, Franco Raggi, Umberto Riva, Alvaro Siza, Ettore Sottsass, Sergei Tchoban, Velasco Vitali and Marco Zanuso Jr.
-pressRelease1: /assets/antoniajannone-daam-cs.pdf
+pressRelease1: /assets/antonia-jannone-daam-cs.pdf
 pressRelease2: /assets/antoniajannone-conversazioni.pdf
 pressRelease3: ""
 pressRelease4: ""
