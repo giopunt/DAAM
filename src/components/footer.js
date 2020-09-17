@@ -2,7 +2,7 @@ import React from "react"
 
 import styles from "./footer.module.css"
 
-import logo from "../images/mia-logo.jpg"
+import logo from "../images/mia-logo-new.png"
 
 const Footer = () => (<footer className={styles.footer}>
     <div className={styles.content}>

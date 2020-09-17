@@ -33,8 +33,7 @@
 }
 
 .miaLogo img {
-  width: 150px;
+  width: 200px;
   margin-top: 5vh;
-  filter: grayscale(1) invert(1);
   display: block;
 }
