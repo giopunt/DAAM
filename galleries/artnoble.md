@@ -44,7 +44,7 @@ bio: >-
 
 
   ENG: ArtNoble is a distinctive exhibition platform and art gallery dedicated to the promotion of unique contemporary talents, aiming to push the barriers of exclusivity typically associated with the art world. Set up in 2018 in London, ArtNoble has since moved to Milan where it continues to curate site-specific exhibitions and collaborate with established galleries. Over the years, ArtNoble's exhibition program has focused on researching and showcasing the most exciting and sought-after emerging artists on the Italian and International art scene.
-pressRelease1: /assets/daam_artnoble_comunicato-stampa.pdf
+pressRelease1: ""
 pressRelease2: /assets/daam_artnoble_press-release.pdf
 path: /galleries/artnoble
 latitude: "45.4792271"
