@@ -45,7 +45,11 @@ class Gallery extends React.Component {
       slider3,
       slider4,
       slider5,
-      pressRelease1
+      pressRelease1,
+      pressRelease2,
+      pressRelease3,
+      pressRelease4,
+      pressRelease5
     } = node.frontmatter
 
     const events = this.props.data.events && this.props.data.events.edges.filter(event => event.node.frontmatter.gallery.indexOf(name) !== -1)
@@ -63,8 +67,14 @@ class Gallery extends React.Component {
     ]
 
     const documents = [
-      pressRelease1
+      pressRelease1,
+      pressRelease2,
+      pressRelease3,
+      pressRelease4,
+      pressRelease5
     ]
+
+    console.log(documents)
   
     return (
       <div>
@@ -148,7 +158,7 @@ class Gallery extends React.Component {
 
             {pressRelease1 && <div className={styles.allegati}>
               <h3 className={styles.subtitle}>Allegati</h3>
-                {documents.filter(doc => doc !== null).map(doc => <p key={doc} className={styles.doc}><a target="_blank" rel="noreferrer" href={doc}>{doc.replace('/assets/', '')}</a></p>)}
+                {documents.filter(doc => doc).map(doc => <p key={doc} className={styles.doc}><a target="_blank" rel="noreferrer" href={doc}>{doc.replace('/assets/', '')}</a></p>)}
             </div>}
 
             {address && <section className={styles.section}>
@@ -204,6 +214,10 @@ export const query = graphql`
         slider4
         slider5
         pressRelease1
+        pressRelease2
+        pressRelease3
+        pressRelease4
+        pressRelease5
       }
     }
     events: allMarkdownRemark(
