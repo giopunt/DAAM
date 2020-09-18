@@ -15,6 +15,6 @@ description: >-
   Orari: 10:00 - 13:00, 15:00 - 20:00
 gallery: ARTNOBLE
 location: ARTNOBLE
-date: 2020-10-02T08:00:00.000Z
-endDate: 2020-10-02T18:00:00.000Z
+date: 2020-10-04T08:00:00.000Z
+endDate: 2020-10-04T18:00:00.000Z
 ---
