@@ -1,10 +1,13 @@
 ---
 Draft: false
-title: Dialogues - Apertura al pubblico
+title: Dialogues - Apertura al pubblico e incontro con l'autore
 description: >-
-  Fotografie di Alberto Selvestrel. \
+  Artnoble presenta fotografie di Alberto Selvestrel in mostra da Venerdi 2
+  Ottobre a Giovedi 15 Ottobre.
 
-  Venerdi 2 Ottobre - Giovedi 15 Ottobre 
+
+  Durante i giorni del DAAM (1-4 Ottobre) il fotografo Alberto Selvestrel sarà presente alla mostra e disponibile per parlare con clienti/visitatori. 
+
 
   Aperto al pubblico, gradita prenotazione all’email info@artnoble.co.uk oppure al numero +39 324 997 4878
 
