@@ -21,17 +21,21 @@ contacts: |-
 
   [Press Mail](mailto:press@artnoble.co.uk)
 program: >-
-  Dall’1 al 4 Ottobre, ArtNoble presenta il fotografo emergente Alberto
-  Selvestrel, il suo nuovo corpus di lavori e il lancio del suo nuovo libro.
+  Dall’1 al 15 Ottobre, in occasione del DAAM, ArtNoble presenta il fotografo
+  emergente Alberto Selvestrel, il suo nuovo corpus di lavori e il suo nuovo
+  libro d’artista.
 
 
-  Proseguendo con la propria missione di trovare e promuovere nuovi artisti emergenti e di curare mostre site-specific, ArtNoble è lieto di annunciare il debutto del giovane fotografo italiano, Alberto Selvestrel. A causa dell'emergenza Covid-19, il MIA Photo Fair, dove Selvestrel avrebbe dovuto esporre, è stato annullato, ma ArtNoble ha deciso di aderire al progetto DAAM (Dovevo Andare Al MIA) per continuare la propria attività di sostegno nei confronti di giovani artisti.
+
+  Proseguendo con la propria missione di trovare e promuovere nuovi artisti emergenti curando mostre site-specific, ArtNoble è lieto di annunciare il debutto del giovane fotografo italiano, Alberto Selvestrel. A causa dell'emergenza Covid-19 e di conseguenza la cancellazione del MIA Photo Fair, ArtNoble ha deciso di aderire al progetto DAAM (Dovevo Andare Al MIA) per continuare la propria attività di sostegno nei confronti di giovani artisti, presentando Dialogues, l  a prima mostra personale milanese di Alberto Selvestrel.
+
 
 
   Selvestrel è noto per la sua particolare attenzione ai paesaggi che coniugano sintesi e luminosità. Nella sua nuova serie, Selvestrel analizza il rapporto tra l’ambiente naturale e quello costruito. Il suo lavoro mette in discussione il rapporto di coesione tra la sua distonica visione del mondo e le suggestive geometrie architettoniche, trasportando lo spettatore in un mondo dove l’opera dell'uomo e l’opera della natura possono convivere senza tensioni.
 
 
-  In concomitanza con la mostra, ArtNoble presenterà al pubblico il nuovo libro di Alberto Selvestrel intitolato "Dialogues", che includerà il suo ultimo corpus di lavori.
+
+  In concomitanza con la mostra, ArtNoble presenterà al pubblico anche il nuovo libro d’artista di Alberto Selvestrel intitolato "Dialogues", che includerà il suo ultimo corpus di lavori.
 bio: >-
   ITA: ArtNoble è una piattaforma espositiva e galleria d'arte dedicata alla
   promozione di talenti contemporanei, con l'obiettivo di superare le barriere
