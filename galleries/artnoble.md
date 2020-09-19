@@ -44,13 +44,14 @@ bio: >-
 
 
   ENG: ArtNoble is a distinctive exhibition platform and art gallery dedicated to the promotion of unique contemporary talents, aiming to push the barriers of exclusivity typically associated with the art world. Set up in 2018 in London, ArtNoble has since moved to Milan where it continues to curate site-specific exhibitions and collaborate with established galleries. Over the years, ArtNoble's exhibition program has focused on researching and showcasing the most exciting and sought-after emerging artists on the Italian and International art scene.
-pressRelease1: ""
-pressRelease2: /assets/daam_artnoble_press-release.pdf
+pressRelease1: /assets/artnoble-per-daam_cs.pdf
+pressRelease2: ""
 path: /galleries/artnoble
 latitude: "45.4792271"
 longitude: "9.2080117"
-slider: /assets/senza-titolo-1_link-ii.jpg
-slider2: /assets/senza-titolo-7_link.jpg
-slider3: /assets/senza-titolo-8_dialogues.jpg
-slider4: /assets/senza-titolo-12_dialogues.jpg
+slider: /assets/senza-titolo-1_link-ii-series_2019_alberto-selvestrel.jpg
+slider2: /assets/senza-titolo-1_link-series_2017_alberto-selvestrel.jpg
+slider3: /assets/senza-titolo-5_dialogues-series_2019_alberto-selvestrel.jpg
+slider4: /assets/senza-titolo-6_link-series_2018_alberto-selvestrel.jpg
+slider5: /assets/senza-titolo-7_link-series_2018_alberto-selvestrel.jpg
 ---
