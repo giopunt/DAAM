@@ -22,6 +22,12 @@
   font-size: 20px;
 }
 
+.press {
+  margin-top: 5vh;
+  font-size: 20px;
+  line-height: 2.5rem;
+}
+
 .footer a {
   color: #fff;
   text-decoration: none;
