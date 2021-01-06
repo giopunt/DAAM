@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@loadable/component": "^5.13.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.23.12",
     "gatsby-background-image": "^1.1.1",
